@@ -1,0 +1,12 @@
+#!/bin/sh
+TTY=/dev/ttyATH0
+cmd=$QUERY_STRING
+if [ not $cmd ]; then
+	cmd=$1
+fi
+
+ stty -F $TTY raw speed 9600 2>1 > /dev/null  
+echo -e "\r\n$cmd\r\n$cmd\r\n$cmd\r\n"  > $TTY
+echo -e "\r\n$cmd\r\n$cmd\r\n$cmd\r\n"  > $TTY
+exit 200
+

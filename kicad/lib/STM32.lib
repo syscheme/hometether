@@ -1,0 +1,546 @@
+EESchema-LIBRARY Version 2.3  29/04/2008-12:21:25
+# Dev Name: STM32F10xR
+# Package Name: TQFP64
+# Dev Tech: -16
+# Dev Prefix: IC
+# Gate count = 1
+#
+DEF STM32F10xRE I 0 40 Y Y 1 L N
+# Gate Name: G$1
+# Symbol Name: 54-I/O-1
+F0 "U" -1200 3150 50 H V L B
+F1 "STM32F10xRE" -1200 -1500 50 H V L B
+F2 "STM32F10xR-TQFP64" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -1200 3100 1200 3100
+P 2 1 0 0 1200 3100 1200 -1400
+P 2 1 0 0 1200 -1400 -1200 -1400
+P 2 1 0 0 -1200 -1400 -1200 3100
+
+#
+X (USART2_CTS/ADC0)PA0          14 1400 1400 200 L 40 40 1 1 B 
+X (USART2_RTS/ADC1)PA1          15 1400 1500 200 L 40 40 1 1 B 
+X  (USART2_TX/ADC2)PA2          16 1400 1600 200 L 40 40 1 1 B 
+X  (USART2_RX/ADC3)PA3          17 1400 1700 200 L 40 40 1 1 B 
+X  (USART2_CK/DAC1/ADC4)PA4          20 1400 1800 200 L 40 40 1 1 B 
+X   (SPI1_SCK/DAC2/ADC5)PA5          21 1400 1900 200 L 40 40 1 1 B 
+X  (SPI1_MISO/ADC6)PA6          22 1400 2000 200 L 40 40 1 1 B 
+X  (SPI1_MOSI/ADC7)PA7          23 1400 2100 200 L 40 40 1 1 B
+
+#
+X   (USART1_CK/MCO)PA8          41 1400 2300 200 L 40 40 1 1 B 
+X       (USART1_TX)PA9          42 1400 2400 200 L 40 40 1 1 B 
+X      (USART1_RX)PA10          43 1400 2500 200 L 40 40 1 1 B 
+X (USART1_CTS/CANRX/USBDM)PA11  44 1400 2600 200 L 40 40 1 1 B 
+X (USART1_RTS/CANTX/USBDP)PA12  45 1400 2700 200 L 40 40 1 1 B 
+X     (JTMS/SWDIO)PA13          46 1400 2800 200 L 40 40 1 1 B 
+X     (JTCK/SWCLK)PA14          49 1400 2900 200 L 40 40 1 1 B 
+X           (JTDI)PA15          50 1400 3000 200 L 40 40 1 1 B
+
+#
+X        (SDIO_D4/TIM4_CH3)PB8          61 1400  500 200 L 40 40 1 1 B 
+X        (SDIO_D5/TIM4_CH4)PB9          62 1400  600 200 L 40 40 1 1 B 
+X (I2C2_SCL/USART3_TX)PB10      29 1400  700 200 L 40 40 1 1 B 
+X (I2C2_SDA/USART3_RX)PB11      30 1400  800 200 L 40 40 1 1 B 
+X (SPI2_NSS/I2C2_SMBAI/USART3_CK)PB12  33 1400  900 200 L 40 40 1 1 B 
+X  (SPI2_SCK/I2C2_CK/USART3_CTS)PB13    34 1400 1000 200 L 40 40 1 1 B 
+X (SPI2_MISO/USART3_RTS)PB14    35 1400 1100 200 L 40 40 1 1 B 
+X   (SPI2_MOSI/TIM1_CH3)PB15    36 1400 1200 200 L 40 40 1 1 B
+
+#
+X          (ADC8)PB0            26 1400 -400 200 L 40 40 1 1 B 
+X          (ADC9)PB1            27 1400 -300 200 L 40 40 1 1 B 
+X         (BOOT1)PB2            28 1400 -200 200 L 40 40 1 1 B 
+X (JTDO/SPI3_SCK)PB3            55 1400 -100 200 L 40 40 1 1 B 
+X        (NJTRST/SPI3_MISO)PB4            56 1400  000 200 L 40 40 1 1 B 
+X    (I2C1_SMBA/SPI3_MOSI)PB5            57 1400  100 200 L 40 40 1 1 B 
+X      (I2C1_SCL)PB6            58 1400  200 200 L 40 40 1 1 B 
+X      (I2C1_SDA)PB7            59 1400  300 200 L 40 40 1 1 B
+
+#
+X                (SDIO_D0)PC8            39 1400 -1100 200 L 40 40 1 1 B 
+X        (SDIO_D1)PC9            40 1400 -1000 200 L 40 40 1 1 B 
+X              (UART4_TX)PC10           51 1400 -900 200 L 40 40 1 1 B 
+X               (UART4_RX)PC11           52 1400 -800 200 L 40 40 1 1 B 
+X                (UART5_TX)PC12           53 1400 -700 200 L 40 40 1 1 B 
+X     (ANTI-TAMP)PC13            2 1400 -600 200 L 40 40 1 1 B 
+
+#
+X                ((UART5_RX))PD2            54 1400 -1300 200 L 40 40 1 1 B 
+
+#
+X PC0(ADC10)                     8 -1400 -1100 200 R 40 40 1 1 W 
+X PC1(ADC11)                     9 -1400 -1000 200 R 40 40 1 1 W 
+X PC2(ADC12)                    10 -1400 -900 200 R 40 40 1 1 W 
+X PC3(ADC13)                    11 -1400 -800 200 R 40 40 1 1 W 
+X PC4(ADC14)                    24 -1400 -700 200 R 40 40 1 1 W 
+X PC5(ADC15)                    25 -1400 -600 200 R 40 40 1 1 W 
+X PC6(I2C2_MCK/SDIO_D6)         37 -1400 -500 200 R 40 40 1 1 W 
+X PC7(I2C2_MCK/SDIO_D7)         38 -1400 -400 200 R 40 40 1 1 W 
+
+############################
+
+X PC14(OSC32_IN)                 3 -1400 3000 200 R 40 40 1 1 W 
+X PC15(OSC32_OUT)                4 -1400 2700 200 R 40 40 1 1 W 
+
+X OSC_IN                         5 -1400 2500 200 R 40 40 1 1 W 
+X OSC_OUT                        6 -1400 2200 200 R 40 40 1 1 W 
+
+X NRST                           7 -1400 1800 200 R 40 40 1 1 I I
+
+X BOOT0                         60 -1400 1600 200 R 40 40 1 1 W
+
+X VBAT                           1 -1400 1200 200 R 40 40 1 1 W
+
+X VDDA                        13 -1400 1000 200 R 40 40 1 1 W
+X VDD1                        32 -1400  900 200 R 40 40 1 1 W
+X VDD2                        48 -1400  800 200 R 40 40 1 1 W
+X VDD3                        64 -1400  700 200 R 40 40 1 1 W
+X VDD4                        19 -1400  600 200 R 40 40 1 1 W
+
+X VSSA                          12 -1400 400 200 R 40 40 1 1 I I
+X VSS1                          31 -1400 300 200 R 40 40 1 1 I I
+X VSS2                          47 -1400 200 200 R 40 40 1 1 I I
+X VSS3                          63 -1400 100 200 R 40 40 1 1 I I
+X VSS4                          18 -1400 00 200 R 40 40 1 1 I I
+
+
+ENDDRAW
+ENDDEF
+
+DEF STM32F10xRC U 0 40 Y Y 1 L N
+# Gate Name: G$1
+# Symbol Name: 54-I/O-1
+F0 "U" -1200 3150 50 H V L B
+F1 "STM32F10xRC" -1200 -1500 50 H V L B
+F2 "STM32F10xR-TQFP64" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -1200 3100 1200 3100
+P 2 1 0 0 1200 3100 1200 -1400
+P 2 1 0 0 1200 -1400 -1200 -1400
+P 2 1 0 0 -1200 -1400 -1200 3100
+
+#
+X (USART2_CTS/ADC0)PA0          14 1400 1400 200 L 40 40 1 1 B 
+X (USART2_RTS/ADC1)PA1          15 1400 1500 200 L 40 40 1 1 B 
+X  (USART2_TX/ADC2)PA2          16 1400 1600 200 L 40 40 1 1 B 
+X  (USART2_RX/ADC3)PA3          17 1400 1700 200 L 40 40 1 1 B 
+X  (USART2_CK/ADC4)PA4          20 1400 1800 200 L 40 40 1 1 B 
+X   (SPI1_SCK/ADC5)PA5          21 1400 1900 200 L 40 40 1 1 B 
+X  (SPI1_MISO/ADC6)PA6          22 1400 2000 200 L 40 40 1 1 B 
+X  (SPI1_MOSI/ADC7)PA7          23 1400 2100 200 L 40 40 1 1 B
+
+#
+X   (USART1_CK/MCO)PA8          41 1400 2300 200 L 40 40 1 1 B 
+X       (USART1_TX)PA9          42 1400 2400 200 L 40 40 1 1 B 
+X      (USART1_RX)PA10          43 1400 2500 200 L 40 40 1 1 B 
+X (USART1_CTS/CANRX/USBDM)PA11  44 1400 2600 200 L 40 40 1 1 B 
+X (USART1_RTS/CANTX/USBDP)PA12  45 1400 2700 200 L 40 40 1 1 B 
+X     (JTMS/SWDIO)PA13          46 1400 2800 200 L 40 40 1 1 B 
+X     (JTCK/SWCLK)PA14          49 1400 2900 200 L 40 40 1 1 B 
+X           (JTDI)PA15          50 1400 3000 200 L 40 40 1 1 B
+
+#
+X        (TIM4_CH3)PB8          61 1400  500 200 L 40 40 1 1 B 
+X        (TIM4_CH4)PB9          62 1400  600 200 L 40 40 1 1 B 
+X (I2C2_SCL/USART3_TX)PB10      29 1400  700 200 L 40 40 1 1 B 
+X (I2C2_SDA/USART3_RX)PB11      30 1400  800 200 L 40 40 1 1 B 
+X (SPI2_NSS/I2C2_SMBAI/USART3_CK)PB12  33 1400  900 200 L 40 40 1 1 B 
+X (SPI2_SCK/I2C2_CK/USART3_CTS)PB13    34 1400 1000 200 L 40 40 1 1 B 
+X (SPI2_MISO/USART3_RTS)PB14    35 1400 1100 200 L 40 40 1 1 B 
+X   (SPI2_MOSI/TIM1_CH3)PB15    36 1400 1200 200 L 40 40 1 1 B
+
+#
+X          (ADC8)PB0            26 1400 -400 200 L 40 40 1 1 B 
+X          (ADC9)PB1            27 1400 -300 200 L 40 40 1 1 B 
+X         (BOOT1)PB2            28 1400 -200 200 L 40 40 1 1 B 
+X (JTDO/SPI3_SCK)PB3            55 1400 -100 200 L 40 40 1 1 B 
+X        (JNTRST)PB4            56 1400  000 200 L 40 40 1 1 B 
+X     (I2C1_SMBA)PB5            57 1400  100 200 L 40 40 1 1 B 
+X      (I2C1_SCL)PB6            58 1400  200 200 L 40 40 1 1 B 
+X      (I2C1_SDA)PB7            59 1400  300 200 L 40 40 1 1 B
+
+#
+X                PC8            39 1400 -1100 200 L 40 40 1 1 B 
+X                PC9            40 1400 -1000 200 L 40 40 1 1 B 
+X                PC10           51 1400 -900 200 L 40 40 1 1 B 
+X                PC11           52 1400 -800 200 L 40 40 1 1 B 
+X                PC12           53 1400 -700 200 L 40 40 1 1 B 
+X     (ANTI-TAMP)PC13            2 1400 -600 200 L 40 40 1 1 B 
+
+#
+X                PD2            54 1400 -1300 200 L 40 40 1 1 B 
+
+#
+X PC0(ADC10)                     8 -1400 -1100 200 R 40 40 1 1 W 
+X PC1(ADC11)                     9 -1400 -1000 200 R 40 40 1 1 W 
+X PC2(ADC12)                    10 -1400 -900 200 R 40 40 1 1 W 
+X PC3(ADC13)                    11 -1400 -800 200 R 40 40 1 1 W 
+X PC4(ADC14)                    24 -1400 -700 200 R 40 40 1 1 W 
+X PC5(ADC15)                    25 -1400 -600 200 R 40 40 1 1 W 
+X PC6                           37 -1400 -500 200 R 40 40 1 1 W 
+X PC7                           38 -1400 -400 200 R 40 40 1 1 W 
+
+############################
+
+X PC14(OSC32_IN)                 3 -1400 3000 200 R 40 40 1 1 W 
+X PC15(OSC32_OUT)                4 -1400 2700 200 R 40 40 1 1 W 
+
+X OSC_IN                         5 -1400 2500 200 R 40 40 1 1 W 
+X OSC_OUT                        6 -1400 2200 200 R 40 40 1 1 W 
+
+X NRST                           7 -1400 1800 200 R 40 40 1 1 I I
+
+X BOOT0                         60 -1400 1600 200 R 40 40 1 1 W
+
+X VBAT                           1 -1400 1200 200 R 40 40 1 1 W
+
+X VDDA                        13 -1400 1000 200 R 40 40 1 1 W
+X VDD1                        32 -1400  900 200 R 40 40 1 1 W
+X VDD2                        48 -1400  800 200 R 40 40 1 1 W
+X VDD3                        64 -1400  700 200 R 40 40 1 1 W
+X VDD4                        19 -1400  600 200 R 40 40 1 1 W
+
+X VSSA                          12 -1400 400 200 R 40 40 1 1 I I
+X VSS1                          31 -1400 300 200 R 40 40 1 1 I I
+X VSS2                          47 -1400 200 200 R 40 40 1 1 I I
+X VSS3                          63 -1400 100 200 R 40 40 1 1 I I
+X VSS4                          18 -1400 00 200 R 40 40 1 1 I I
+
+
+ENDDRAW
+ENDDEF
+
+DEF STM32F10xC U 0 40 Y Y 1 L N
+# Gate Name: G$1
+# Symbol Name: 54-I/O-1
+F0 "U" -1200 3150 50 H V L B
+F1 "STM32F10xC" -800 000 50 H V L B
+F2 "STM32F10xC-TQFP48" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -1200 3100 1200 3100
+P 2 1 0 0 1200 3100 1200 -700
+P 2 1 0 0 1200 -700 -1200 -700
+P 2 1 0 0 -1200 -700 -1200 3100
+
+#
+X (USART2_CTS/ADC0)PA0          10 1400 1400 200 L 40 40 1 1 B 
+X (USART2_RTS/ADC1)PA1          11 1400 1500 200 L 40 40 1 1 B 
+X  (USART2_TX/ADC2)PA2          12 1400 1600 200 L 40 40 1 1 B 
+X  (USART2_RX/ADC3)PA3          13 1400 1700 200 L 40 40 1 1 B 
+X  (USART2_CK/ADC4)PA4          14 1400 1800 200 L 40 40 1 1 B 
+X   (SPI1_SCK/ADC5)PA5          15 1400 1900 200 L 40 40 1 1 B 
+X  (SPI1_MISO/ADC6)PA6          16 1400 2000 200 L 40 40 1 1 B 
+X  (SPI1_MOSI/ADC7)PA7          17 1400 2100 200 L 40 40 1 1 B
+
+#
+X   (USART1_CK/MCO)PA8*         29 1400 2300 200 L 40 40 1 1 B 
+X       (USART1_TX)PA9*         30 1400 2400 200 L 40 40 1 1 B 
+X      (USART1_RX)PA10*         31 1400 2500 200 L 40 40 1 1 B 
+X (USART1_CTS/CANRX/USBDM)PA11* 32 1400 2600 200 L 40 40 1 1 B 
+X (USART1_RTS/CANTX/USBDP)PA12* 33 1400 2700 200 L 40 40 1 1 B 
+X     (JTMS/SWDIO)PA13*         34 1400 2800 200 L 40 40 1 1 B 
+X     (JTCK/SWCLK)PA14*         37 1400 2900 200 L 40 40 1 1 B 
+X           (JTDI)PA15*         38 1400 3000 200 L 40 40 1 1 B
+
+#
+X        (TIM4_CH3)PB8          45 1400  500 200 L 40 40 1 1 B 
+X        (TIM4_CH4)PB9          46 1400  600 200 L 40 40 1 1 B 
+X (I2C2_SCL/USART3_TX)PB10*     21 1400  700 200 L 40 40 1 1 B 
+X (I2C2_SDA/USART3_RX)PB11*     22 1400  800 200 L 40 40 1 1 B 
+X (SPI2_NSS/I2C2_SMBAI/USART3_CK)PB12* 25 1400  900 200 L 40 40 1 1 B 
+X (SPI2_SCK/I2C2_CK/USART3_CTS)PB13*   26 1400 1000 200 L 40 40 1 1 B 
+X (SPI2_MISO/USART3_RTS)PB14*   27 1400 1100 200 L 40 40 1 1 B 
+X   (SPI2_MOSI/TIM1_CH3)PB15*   28 1400 1200 200 L 40 40 1 1 B
+
+#
+X          (ADC8)PB0            18 1400 -400 200 L 40 40 1 1 B 
+X          (ADC9)PB1            19 1400 -300 200 L 40 40 1 1 B 
+X         (BOOT1)PB2*           20 1400 -200 200 L 40 40 1 1 B 
+X (JTDO/SPI3_SCK)PB3*           39 1400 -100 200 L 40 40 1 1 B 
+X        (JNTRST)PB4*           40 1400  000 200 L 40 40 1 1 B 
+X     (I2C1_SMBA)PB5            41 1400  100 200 L 40 40 1 1 B 
+X      (I2C1_SCL)PB6*           42 1400  200 200 L 40 40 1 1 B 
+X      (I2C1_SDA)PB7*           43 1400  300 200 L 40 40 1 1 B
+
+#
+X     (ANTI-TAMP)PC13            2 1400 -600 200 L 40 40 1 1 B 
+
+############################
+
+X PC14(OSC32_IN)                 3 -1400 3000 200 R 40 40 1 1 W 
+X PC15(OSC32_OUT)                4 -1400 2700 200 R 40 40 1 1 W 
+
+X OSC_IN                         5 -1400 2500 200 R 40 40 1 1 W 
+X OSC_OUT                        6 -1400 2200 200 R 40 40 1 1 W 
+
+X NRST                           7 -1400 1800 200 R 40 40 1 1 I I
+
+X BOOT0                         44 -1400 1600 200 R 40 40 1 1 W
+
+X VBAT                           1 -1400 1200 200 R 40 40 1 1 W
+
+X VDDA                         9 -1400 1000 200 R 40 40 1 1 W
+X VDD1                        24 -1400  900 200 R 40 40 1 1 W
+X VDD2                        36 -1400  800 200 R 40 40 1 1 W
+X VDD3                        48 -1400  700 200 R 40 40 1 1 W
+
+X VSSA                           8 -1400 400 200 R 40 40 1 1 I I
+X VSS1                          23 -1400 300 200 R 40 40 1 1 I I
+X VSS2                          35 -1400 200 200 R 40 40 1 1 I I
+X VSS3                          47 -1400 100 200 R 40 40 1 1 I I
+
+ENDDRAW
+ENDDEF
+
+#
+# YJA1050A
+#
+DEF YJA1050A U 0 40 Y Y 1 L N
+F0 "U" 0 100 50 H V L B
+F1 "YJA1050A" 0 -100 50 H I C C
+DRAW
+S -200 -200 200 200 0 1 0 N
+
+X TXD  1 -400  150 200 R 40 40 1 1 I
+X GND  2 -400   50 200 R 40 40 1 1 I
+X VDD  3 -400  -50 200 R 40 40 1 1 P
+X RXD  4 -400 -150 200 R 40 40 1 1 P
+X VREF 5  400 -150 200 L 40 40 1 1 O
+X CANL 6  400  -50 200 L 40 40 1 1 O
+X CANH 7  400   50 200 L 40 40 1 1 O
+X S    8  400  150 200 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+
+#
+# MAX485
+#
+DEF MAX485 U 0 40 Y Y 1 L N
+F0 "U" 0 100 50 H V L B
+F1 "MAX485" 0 -100 50 H I C C
+DRAW
+S -200 -200 200 200 0 1 0 N
+
+X RO   1 -400  150 200 R 40 40 1 1 I
+X /RE  2 -400   50 200 R 40 40 1 1 I
+X DE   3 -400  -50 200 R 40 40 1 1 P
+X DI   4 -400 -150 200 R 40 40 1 1 P
+X GND  5  400 -150 200 L 40 40 1 1 O
+X A    6  400  -50 200 L 40 40 1 1 O
+X B    7  400   50 200 L 40 40 1 1 O
+X VCC  8  400  150 200 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+
+#
+# NRF24L01M
+#
+DEF NRF24L01M U 0 40 Y Y 1 L N
+F0 "U" 0 250 50 H V L B
+F1 "NRF24L01" 0 0 50 V V C CNN
+DRAW
+S -200 -200 200 200 0 1 0 N
+
+X GND  1 -400  150 200 R 40 40 1 1 P
+X VCC  2  400  150 200 L 40 40 1 1 P
+X CE   3 -400   50 200 R 40 40 1 1 P
+X CSN  4  400   50 200 L 40 40 1 1 P
+X SCK  5 -400  -50 200 R 40 40 1 1 P
+X MOSI 6  400  -50 200 L 40 40 1 1 P
+X MISO 7 -400 -150 200 R 40 40 1 1 P
+X IRQ  8  400 -150 200 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+
+#
+# PNP
+#
+DEF PNP-2TY Q 0 0 Y Y 1 F N
+F0 "Q" 0 -150 60 H V R CNN
+F1 "PNP-2TY" 0 150 60 H V R CNN
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0  0 0  100 100 N
+P 3 0 1 10  0 75  0 -75  0 -75 F
+P 3 0 1 0  25 -25  0 0  0 0 N
+P 3 0 1 0  100 -100  65 -65  65 -65 N
+P 5 0 1 0  25 -25  50 -75  75 -50  25 -25  25 -25 F
+X E 2 100 -200 100 U 40 40 1 1 P
+X B 1 -200 0 200 R 40 40 1 1 I
+X C 3 100 200 100 D 40 40 1 1 P
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: REG1117
+# Package Name: SOT223
+# Dev Tech: ''
+# Dev Prefix: U
+# Gate count = 1
+#
+DEF REG1117 U 0 40 Y Y 1 L N
+# Gate Name: G$1
+# Symbol Name: REG1118
+F0 "IC" -300 225 50 H V L B
+F1 "REG1117" -200 100 50 H V L B
+F2 "burr-brown-3-SOT223" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -300 -300 300 -300
+P 2 1 0 0 300 -300 300 200
+P 2 1 0 0 300 200 -300 200
+P 2 1 0 0 -300 200 -300 -300
+X GND 1 0 -500 200 U 40 40 1 1 W 
+X VIN 3 -500 0 200 R 40 40 1 1 I 
+X VOUT 2 500 0 200 L 40 40 1 1 O 
+ENDDRAW
+ENDDEF
+
+DEF STM32F10xV U 0 40 Y Y 1 L N
+# Gate Name: G$1
+# Symbol Name: 54-I/O-1
+F0 "U" -1200 3150 50 H V L B
+F1 "STM32F10xV" -1200 -1500 50 H V L B
+F2 "STM32F10xV-TQFP100" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -1200 3100 1200 3100
+P 2 1 0 0 1200 3100 1200 -1400
+P 2 1 0 0 1200 -1400 -1200 -1400
+P 2 1 0 0 -1200 -1400 -1200 3100
+
+#
+X (USART2_CTS/ADC0)PA0          23 1400 1400 200 L 40 40 1 1 B 
+X (USART2_RTS/ADC1)PA1          24 1400 1500 200 L 40 40 1 1 B 
+X  (USART2_TX/ADC2)PA2          25 1400 1600 200 L 40 40 1 1 B 
+X  (USART2_RX/ADC3)PA3          26 1400 1700 200 L 40 40 1 1 B 
+X  (USART2_CK/ADC4)PA4          29 1400 1800 200 L 40 40 1 1 B 
+X   (SPI1_SCK/ADC5)PA5          30 1400 1900 200 L 40 40 1 1 B 
+X  (SPI1_MISO/ADC6)PA6          31 1400 2000 200 L 40 40 1 1 B 
+X  (SPI1_MOSI/ADC7)PA7          32 1400 2100 200 L 40 40 1 1 B
+
+#
+X   (USART1_CK/MCO)PA8          67 1400 2300 200 L 40 40 1 1 B 
+X       (USART1_TX)PA9          68 1400 2400 200 L 40 40 1 1 B 
+X      (USART1_RX)PA10          69 1400 2500 200 L 40 40 1 1 B 
+X (USART1_CTS/CANRX/USBDM)PA11  70 1400 2600 200 L 40 40 1 1 B 
+X (USART1_RTS/CANTX/USBDP)PA12  71 1400 2700 200 L 40 40 1 1 B 
+X     (JTMS/SWDIO)PA13          72 1400 2800 200 L 40 40 1 1 B 
+X     (JTCK/SWCLK)PA14          76 1400 2900 200 L 40 40 1 1 B 
+X           (JTDI)PA15          77 1400 3000 200 L 40 40 1 1 B
+
+#
+X        (TIM4_CH3)PB8          95 1400  500 200 L 40 40 1 1 B 
+X        (TIM4_CH4)PB9          96 1400  600 200 L 40 40 1 1 B 
+X (I2C2_SCL/USART3_TX)PB10      47 1400  700 200 L 40 40 1 1 B 
+X (I2C2_SDA/USART3_RX)PB11      48 1400  800 200 L 40 40 1 1 B 
+X (SPI2_NSS/I2C2_SMBAI/USART3_CK)PB12  51 1400  900 200 L 40 40 1 1 B 
+X (SPI2_SCK/I2C2_CK/USART3_CTS)PB13    52 1400 1000 200 L 40 40 1 1 B 
+X (SPI2_MISO/USART3_RTS)PB14    53 1400 1100 200 L 40 40 1 1 B 
+X   (SPI2_MOSI/TIM1_CH3)PB15    54 1400 1200 200 L 40 40 1 1 B
+
+#
+X          (ADC8)PB0            35 1400 -400 200 L 40 40 1 1 B 
+X          (ADC9)PB1            36 1400 -300 200 L 40 40 1 1 B 
+X         (BOOT1)PB2            37 1400 -200 200 L 40 40 1 1 B 
+X (JTDO/SPI3_SCK)PB3            89 1400 -100 200 L 40 40 1 1 B 
+X        (JNTRST)PB4            90 1400  000 200 L 40 40 1 1 B 
+X     (I2C1_SMBA)PB5            91 1400  100 200 L 40 40 1 1 B 
+X      (I2C1_SCL)PB6            92 1400  200 200 L 40 40 1 1 B 
+X      (I2C1_SDA)PB7            93 1400  300 200 L 40 40 1 1 B
+
+#
+X                PC8            65 1400 -1100 200 L 40 40 1 1 B 
+X                PC9            66 1400 -1000 200 L 40 40 1 1 B 
+X                PC10           78 1400 -900 200 L 40 40 1 1 B 
+X                PC11           79 1400 -800 200 L 40 40 1 1 B 
+X                PC12           80 1400 -700 200 L 40 40 1 1 B 
+X     (ANTI-TAMP)PC13            7 1400 -600 200 L 40 40 1 1 B 
+
+#
+X                PD2            83 1400 -1300 200 L 40 40 1 1 B 
+
+#
+X PC0(ADC10)                    15 -1400 -1100 200 R 40 40 1 1 W 
+X PC1(ADC11)                    16 -1400 -1000 200 R 40 40 1 1 W 
+X PC2(ADC12)                    17 -1400 -900 200 R 40 40 1 1 W 
+X PC3(ADC13)                    18 -1400 -800 200 R 40 40 1 1 W 
+X PC4(ADC14)                    33 -1400 -700 200 R 40 40 1 1 W 
+X PC5(ADC15)                    34 -1400 -600 200 R 40 40 1 1 W 
+X PC6                           63 -1400 -500 200 R 40 40 1 1 W 
+X PC7                           64 -1400 -400 200 R 40 40 1 1 W 
+
+############################
+
+X PC14(OSC32_IN)                 8 -1400 3000 200 R 40 40 1 1 W 
+X PC15(OSC32_OUT)                9 -1400 2700 200 R 40 40 1 1 W 
+
+X OSC_IN                        12 -1400 2500 200 R 40 40 1 1 W 
+X OSC_OUT                       13 -1400 2200 200 R 40 40 1 1 W 
+
+X NRST                          14 -1400 1800 200 R 40 40 1 1 I I
+
+X BOOT0                         94 -1400 1600 200 R 40 40 1 1 W
+
+X VBAT                           6 -1400 1200 200 R 40 40 1 1 W
+
+X VDDA                          22 -1400 1000 200 R 40 40 1 1 W
+X VDD1                          50 -1400  900 200 R 40 40 1 1 W
+X VDD2                          75 -1400  800 200 R 40 40 1 1 W
+X VDD3                         100 -1400  700 200 R 40 40 1 1 W
+X VDD4                          28 -1400  600 200 R 40 40 1 1 W
+
+X VSSA                          19 -1400 400 200 R 40 40 1 1 I I
+X VSS1                          49 -1400 300 200 R 40 40 1 1 I I
+X VSS2                          74 -1400 200 200 R 40 40 1 1 I I
+X VSS3                          99 -1400 100 200 R 40 40 1 1 I I
+X VSS4                          27 -1400 00 200 R 40 40 1 1 I I
+
+##
+X PE2(TCK)*                         1 -1400 2000 200 R 40 40 1 1 I I
+X PE3(TD0)*                         2 -1400 2100 200 R 40 40 1 1 I I
+X PE4(TD1)*                         3 -1400 2200 200 R 40 40 1 1 I I
+X PE5(TD2)*                         4 -1400 2300 200 R 40 40 1 1 I I
+X PE5(TD3)*                         5 -1400 2400 200 R 40 40 1 1 I I
+
+X VSS5                         10 -1400 2400 2500 R 40 40 1 1 I I
+X VDD5                         11 -1400 2400 2600 R 40 40 1 1 I I
+
+X Vref-                        20 -1400 2500 2700 R 40 40 1 1 I I
+X Vref+                        21 -1400 2600 2800 R 40 40 1 1 I I
+
+X PE7*                         38 -1400 2400 2900 R 40 40 1 1 I I
+X PE8*                         39 -1400 2400 3000 R 40 40 1 1 I I
+X PE9*                         40 -1400 2400 3100 R 40 40 1 1 I I
+X PE10*                        41 -1400 2400 3200 R 40 40 1 1 I I
+X PE11*                        42 -1400 2400 3300 R 40 40 1 1 I I
+X PE12*                        43 -1400 2400 3400 R 40 40 1 1 I I
+X PE13*                        44 -1400 2400 3500 R 40 40 1 1 I I
+X PE14*                        45 -1400 2400 3600 R 40 40 1 1 I I
+X PE15*                        46 -1400 2400 3700 R 40 40 1 1 I I
+
+X PD8*                         55 -1400 2400 3800 R 40 40 1 1 I I
+X PD9*                         56 -1400 2400 3900 R 40 40 1 1 I I
+X PD10*                        57 -1400 2400 4000 R 40 40 1 1 I I
+X PD11*                        58 -1400 2400 4100 R 40 40 1 1 I I
+X PD12*                        59 -1400 2400 4200 R 40 40 1 1 I I
+X PD13*                        60 -1400 2400 4300 R 40 40 1 1 I I
+X PD14*                        61 -1400 2400 4400 R 40 40 1 1 I I
+X PD15*                        62 -1400 2400 4500 R 40 40 1 1 I I
+
+X NC                           73 -1400 2400 4600 R 40 40 1 1 I I
+
+X PD0*                         81 -1400 2400 4700 R 40 40 1 1 I I
+X PD1*                         82 -1400 2400 4800 R 40 40 1 1 I I
+X PD3*                         84 -1400 2400 4900 R 40 40 1 1 I I
+X PD4*                         85 -1400 2400 5000 R 40 40 1 1 I I
+X PD5*                         86 -1400 2400 5100 R 40 40 1 1 I I
+X PD6*                         87 -1400 2400 5200 R 40 40 1 1 I I
+X PD7*                         88 -1400 2400 5300 R 40 40 1 1 I I
+
+X PE0*                         97 -1400 2400 5400 R 40 40 1 1 I I
+X PD7*                         98 -1400 2400 5500 R 40 40 1 1 I I
+
+ENDDRAW
+ENDDEF
+
+#End Library

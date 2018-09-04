@@ -1,0 +1,37 @@
+OBJS := $(patsubst %.cpp, %.os, $(wildcard *.cpp)) ConfigHelper.os SessionContext_ice.os StreamIdx.os
+
+_ice_file := SessionContext_ice.ICE
+
+GENFILES := SessionContext_ice.h SessionContext_ice.cpp StreamIdx.h StreamIdx.cpp 
+
+CXXFLAGS += -DWITH_ICESTORM
+LDFLAGS  += -lZQCommon -lTianShanCommon -lTianShanIce $(icelink)
+
+include $(TOPDIR)/build/common.mk
+
+SessionContext_ice.h SessionContext_ice.cpp: $(_ice_file)
+	@echo "compiling ICE source $< ..."
+	$(Q)$(SLICE2CPP) $(SLICEFLAGS) $<
+
+
+StreamIdx.h StreamIdx.cpp: $(_ice_file)
+	@echo "compiling ICE freeze $< ..."
+	$(Q)$(SLICE2FREEZE) $(SLICEFLAGS) \
+		--index "TianShanS1::StreamIdx, TianShanS1::SessionContext, streamID" StreamIdx $<
+
+////////////////////////
+
+CXX := g++ -c -g
+LD :=  g++ -g -lpthread -o
+
+htc : htc.o getopt.o
+LD htc htc.o getopt.o
+
+htc.o : htc.cpp ht_comm.h
+CXX htc.cpp
+
+getopt.o : getcpt.cpp
+CXX getcpt.cpp
+
+clean :
+rm htc getopt.o htc.o

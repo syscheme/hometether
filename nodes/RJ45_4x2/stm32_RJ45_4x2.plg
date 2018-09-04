@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\workspace.t3600\iotprojs\ht\nodes\RJ45_4x2\stm32_RJ45_4x2.uvproj
+Project File Date:  03/11/2018
+
+<h2>Output:</h2>
+compiling LEDcpp.cpp...
+Src\LEDcpp.cpp(28): error:  #5: cannot open source input file "LEDcpp.hpp": No such file or directory
+Src\LEDcpp.cpp:   #include "LEDcpp.hpp"
+Src\LEDcpp.cpp:                        ^
+Src\LEDcpp.cpp: Src\LEDcpp.cpp: 0 warnings, 1 error
+Src\LEDcpp.cpp - 1 Error(s), 0 Warning(s).
+compiling LEDcpp.cpp...
+.\Inc\LEDcpp.hpp(30): error:  #5: cannot open source input file "stm32f4xx_hal.h": No such file or directory
+.\Inc\LEDcpp.hpp:   #include "stm32f4xx_hal.h"
+.\Inc\LEDcpp.hpp:                             ^
+.\Inc\LEDcpp.hpp: Src\LEDcpp.cpp: 0 warnings, 1 error
+Src\LEDcpp.cpp - 1 Error(s), 0 Warning(s).

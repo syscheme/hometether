@@ -1,0 +1,37 @@
+URL test
+=================================
+SDO.1) global state
+>> GET ht:10/global?gstate=&masterId=
+>> PUT ht:10/global?gstate=02&masterId=00
+
+SDO.2) local state
+>> GET ht:10/local?lstate=&mstate=
+XX readonly
+
+SDO.3) configurations
+>> GET ht:10/ecuConfig?tempMask=&tempIntv=&motionDiffMask=&motionOuterMask=&motionBedMask=&motionDiffIntv=&lumineDiffMask=
+&lumineDiffIntv=&lumineDiffTshd=&fwdAdm=&fwdExt=
+>> PUT ht:10/ecuConfig? ...
+
+SDO.4) ecuPulse
+>> GET ht:10/ecuPulse?poCh=&poCode=&poPfl=&poIntv=
+>> GET ht:10/ecuPulse?piCh=&piCode=&piPfl=&piIntv=
+>> PUT ht:10/ecuPulse?...
+
+SDO.5) rBuf
+>> GET ht:10/rBuf?b03=&b10=  ~b2f
+>> PUT ht:10/rBuf? ...
+
+SDO.6) relays
+>> GET ht:10/ecuRelay?relay=
+>> GET ht:10/ecuRelay?rOn0=&rOff0=rOn1=&rOff1=&rOn2=&rOff2=&rOn3=&rOff3=
+>> PUT ht:10/ecuRelay?relay=03
+>> PUT ht:10/ecuRelay?rOn0=10&rOff0=20
+
+SDO.7) read the temperatures
+>> GET ht:10/temp?t0=  ~ t7
+XX readonly
+
+SDO.8) read the lumine
+>> GET ht:10/lumine?l0=  ~ l7
+XX readonly

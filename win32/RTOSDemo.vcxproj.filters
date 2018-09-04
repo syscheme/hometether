@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\BlockQ.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\blocktim.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\countsem.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\death.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\dynamic.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\flop.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\GenQTest.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\integer.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\portable\MemMang\heap_4.c">
+      <Filter>FreeRTOS\portal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\portable\MSVC-MingW\port.c">
+      <Filter>FreeRTOS\portal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\list.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\croutine.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\PollQ.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\queue.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\QPeek.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\tasks.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\timers.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\QueueOverwrite.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\QueueSet.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DemosModifiedForLowTickRate\recmutex.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcBase.c">
+      <Filter>TraceRecorder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcHardwarePort.c">
+      <Filter>TraceRecorder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcKernel.c">
+      <Filter>TraceRecorder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcKernelPort.c">
+      <Filter>TraceRecorder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcUser.c">
+      <Filter>TraceRecorder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\semtest.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Demo\Common\Minimal\timerdemo.c">
+      <Filter>DemoApp\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="RTOSDemo_main.c" />
+    <ClCompile Include="RTOSDemo_blinky.c" />
+    <ClCompile Include="RTOSDemo_full.c" />
+    <ClCompile Include="Run-time-stats-utils.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FreeRTOSConfig.h">
+      <Filter>Configurations</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace_Recorder_Configuration\trcConfig.h">
+      <Filter>Configurations</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace_Recorder_Configuration\trcHardwarePort.h">
+      <Filter>Configurations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\include\list.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\include\croutine.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\include\queue.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\include\task.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\include\timers.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\include\FreeRTOS.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\portable\MSVC-MingW\portmacro.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\include\portable.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\include\projdefs.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\include\semphr.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SDK\FreeRTOSV7.6.0\FreeRTOS\Source\include\timer_test.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Configurations">
+      <UniqueIdentifier>{8e7521d8-9ff0-400d-a67a-c63785499940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoApp">
+      <UniqueIdentifier>{bcb0886c-53e9-42fc-9a4f-7fe34bc34cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoApp\tasks">
+      <UniqueIdentifier>{90ff92e7-f59b-4d03-8032-ea1f974e85ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS">
+      <UniqueIdentifier>{4b24528c-af5d-416e-abb2-d83f8f36df88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS\portal">
+      <UniqueIdentifier>{7b78dce1-fc5e-4928-9395-b305e0ce96a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TraceRecorder">
+      <UniqueIdentifier>{0c62a030-6272-4824-aaf5-e4cd5ff1e9b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

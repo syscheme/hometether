@@ -1,0 +1,14 @@
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b dd f2
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b fe f1
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b dd f1
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b fe f0
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b dd f0
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b ff f3
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b dc f3
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b ff f2
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b dc f2
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b ff f1
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b dc f1
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b ff f0
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b dc f0
+GenericPulses: 0010 13 31 3a d1 59 e2 6a f3 7b f8 f3

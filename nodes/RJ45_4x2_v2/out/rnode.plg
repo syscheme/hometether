@@ -1,0 +1,425 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\workspace.t3600\iotprojs\ht\nodes\RJ45_4x2_v2\stm_RJ45_4x2.uvproj
+Project File Date:  03/02/2017
+
+<h2>Output:</h2>
+Build target 'flash'
+compiling system_stm32f10x.c...
+..\..\common\htcluster.h(23): error:  #5: cannot open source input file "htod.h": No such file or directory
+..\..\common\htcluster.h:   #include "htod.h"
+..\..\common\htcluster.h:                    ^
+..\..\common\htcluster.h: system_stm32f10x.c: 0 warnings, 1 error
+compiling isr_water2.c...
+..\..\common\htcluster.h(23): error:  #5: cannot open source input file "htod.h": No such file or directory
+..\..\common\htcluster.h:   #include "htod.h"
+..\..\common\htcluster.h:                    ^
+..\..\common\htcluster.h: isr_water2.c: 0 warnings, 1 error
+compiling bsp_water2.c...
+..\..\common\htcluster.h(23): error:  #5: cannot open source input file "htod.h": No such file or directory
+..\..\common\htcluster.h:   #include "htod.h"
+..\..\common\htcluster.h:                    ^
+..\..\common\htcluster.h: bsp_water2.c: 0 warnings, 1 error
+compiling main0.c...
+..\..\common\htcluster.h(23): error:  #5: cannot open source input file "htod.h": No such file or directory
+..\..\common\htcluster.h:   #include "htod.h"
+..\..\common\htcluster.h:                    ^
+..\..\common\htcluster.h: main0.c: 0 warnings, 1 error
+compiling water2.c...
+..\..\common\htcluster.h(23): error:  #5: cannot open source input file "htod.h": No such file or directory
+..\..\common\htcluster.h:   #include "htod.h"
+..\..\common\htcluster.h:                    ^
+..\..\common\htcluster.h: water2.c: 0 warnings, 1 error
+assembling cortexm3_macro.s...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+assembling vectors.s...
+assembling init.s...
+compiling si4432.c...
+compiling pbuf.c...
+compiling io.c...
+compiling htcomm.c...
+compiling 1wire.c...
+compiling ds18b20.c...
+compiling pulses.c...
+compiling delay.c...
+compiling pulses_cap.c...
+Target not created
+Build target 'flash'
+compiling system_stm32f10x.c...
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+includes.h: system_stm32f10x.c: 0 warnings, 1 error
+compiling isr_water2.c...
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+includes.h: isr_water2.c: 0 warnings, 1 error
+compiling bsp_water2.c...
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+bsp_water2.c(433): error:  #20: identifier "nidThis" is undefined
+bsp_water2.c:           nidThis = *((const uint32_t*)0xE000ED00); // CPU type ID , such as STM32F103XXX=0x411FC231
+bsp_water2.c:           ^
+bsp_water2.c: bsp_water2.c: 0 warnings, 2 errors
+compiling main0.c...
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+main0.c(90): warning:  #111-D: statement is unreachable
+main0.c:        return 0;
+main0.c:        ^
+main0.c: main0.c: 1 warning, 1 error
+compiling water2.c...
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+water2.c(694): error:  #20: identifier "NodeId_t" is undefined
+water2.c:   NodeId_t nidThis = 0x123456;
+water2.c:   ^
+water2.c(710): error:  #169: expected a declaration
+water2.c:     OD_DECLARE(status,     ODTID_BYTE, ODF_Readable|ODF_Writeable, &byteStatus, 1)
+water2.c:     ^
+water2.c(724): warning:  #12-D: parsing restarts here after previous syntax error
+water2.c:   const uint8_t EVENTOID_OF_Heartbeat[] ={1,2,3};
+water2.c:                                                 ^
+water2.c(727): error:  #20: identifier "ODEvent_USER_MIN" is undefined
+water2.c:       ODEvent_USER_Event1 = ODEvent_USER_MIN, 
+water2.c:                             ^
+water2.c(726): warning:  #99-D: a declaration here must declare a parameter
+water2.c:   enum {
+water2.c:   ^
+water2.c(730): error:  #85: invalid storage class for a parameter
+water2.c:   static const uint8_t event_objIds[] = {ODID_data1, ODID_data2, ODID_NONE};
+water2.c:   ^
+water2.c(730): error:  #99: a declaration here must declare a parameter
+water2.c:   static const uint8_t event_objIds[] = {ODID_data1, ODID_data2, ODID_NONE};
+water2.c:                        ^
+water2.c(730): error:  #78: a parameter declaration may not have an initializer
+water2.c:   static const uint8_t event_objIds[] = {ODID_data1, ODID_data2, ODID_NONE};
+water2.c:                        ^
+water2.c(730): error:  #20: identifier "ODID_NONE" is undefined
+water2.c:   static const uint8_t event_objIds[] = {ODID_data1, ODID_data2, ODID_NONE};
+water2.c:                                                                  ^
+water2.c(731): error:  #169: expected a declaration
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(735): warning:  #12-D: parsing restarts here after previous syntax error
+water2.c:   HtNode   htnThis; // supposed to be in htcluster.c when full compile
+water2.c:                   ^
+water2.c(735): error: At end of source:  #130: expected a "{"
+water2.c(735): error: At end of source:  #67: expected a "}"
+water2.c: water2.c: 3 warnings, 11 errors
+Target not created
+compiling system_stm32f10x.c...
+..\..\common\htcluster.h(23): error:  #5: cannot open source input file "htod.h": No such file or directory
+..\..\common\htcluster.h:   #include "htod.h"
+..\..\common\htcluster.h:                    ^
+..\..\common\htcluster.h: system_stm32f10x.c: 0 warnings, 1 error
+system_stm32f10x.c - 1 Error(s), 0 Warning(s).
+compiling system_stm32f10x.c...
+..\..\common\htcluster.h(23): error:  #5: cannot open source input file "htod.h": No such file or directory
+..\..\common\htcluster.h:   #include "htod.h"
+..\..\common\htcluster.h:                    ^
+..\..\common\htcluster.h: system_stm32f10x.c: 0 warnings, 1 error
+system_stm32f10x.c - 1 Error(s), 0 Warning(s).
+compiling system_stm32f10x.c...
+..\..\common\htcluster.h(124): error:  #20: identifier "ODID_reserved04" is undefined
+..\..\common\htcluster.h:       ODID_dnid   = ODID_reserved04,      // always maps to htnThis.DNID, 1Byte, read only
+..\..\common\htcluster.h:                     ^
+..\..\common\htcluster.h(126): error:  #20: identifier "ODID_reserved05" is undefined
+..\..\common\htcluster.h:       ODID_uplink = ODID_reserved05,    // always maps to htnThis.nidUplink, 4Byte, read/write
+..\..\common\htcluster.h:                     ^
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+includes.h: system_stm32f10x.c: 0 warnings, 3 errors
+system_stm32f10x.c - 3 Error(s), 0 Warning(s).
+Build target 'flash'
+compiling system_stm32f10x.c...
+..\..\common\htcluster.h(124): error:  #20: identifier "ODID_reserved04" is undefined
+..\..\common\htcluster.h:       ODID_dnid   = ODID_reserved04,      // always maps to htnThis.DNID, 1Byte, read only
+..\..\common\htcluster.h:                     ^
+..\..\common\htcluster.h(126): error:  #20: identifier "ODID_reserved05" is undefined
+..\..\common\htcluster.h:       ODID_uplink = ODID_reserved05,    // always maps to htnThis.nidUplink, 4Byte, read/write
+..\..\common\htcluster.h:                     ^
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+includes.h: system_stm32f10x.c: 0 warnings, 3 errors
+compiling isr_water2.c...
+..\..\common\htcluster.h(124): error:  #20: identifier "ODID_reserved04" is undefined
+..\..\common\htcluster.h:       ODID_dnid   = ODID_reserved04,      // always maps to htnThis.DNID, 1Byte, read only
+..\..\common\htcluster.h:                     ^
+..\..\common\htcluster.h(126): error:  #20: identifier "ODID_reserved05" is undefined
+..\..\common\htcluster.h:       ODID_uplink = ODID_reserved05,    // always maps to htnThis.nidUplink, 4Byte, read/write
+..\..\common\htcluster.h:                     ^
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+includes.h: isr_water2.c: 0 warnings, 3 errors
+compiling bsp_water2.c...
+..\..\common\htcluster.h(124): error:  #20: identifier "ODID_reserved04" is undefined
+..\..\common\htcluster.h:       ODID_dnid   = ODID_reserved04,      // always maps to htnThis.DNID, 1Byte, read only
+..\..\common\htcluster.h:                     ^
+..\..\common\htcluster.h(126): error:  #20: identifier "ODID_reserved05" is undefined
+..\..\common\htcluster.h:       ODID_uplink = ODID_reserved05,    // always maps to htnThis.nidUplink, 4Byte, read/write
+..\..\common\htcluster.h:                     ^
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+includes.h: bsp_water2.c: 0 warnings, 3 errors
+compiling main0.c...
+..\..\common\htcluster.h(124): error:  #20: identifier "ODID_reserved04" is undefined
+..\..\common\htcluster.h:       ODID_dnid   = ODID_reserved04,      // always maps to htnThis.DNID, 1Byte, read only
+..\..\common\htcluster.h:                     ^
+..\..\common\htcluster.h(126): error:  #20: identifier "ODID_reserved05" is undefined
+..\..\common\htcluster.h:       ODID_uplink = ODID_reserved05,    // always maps to htnThis.nidUplink, 4Byte, read/write
+..\..\common\htcluster.h:                     ^
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+main0.c(90): warning:  #111-D: statement is unreachable
+main0.c:        return 0;
+main0.c:        ^
+main0.c: main0.c: 1 warning, 3 errors
+compiling water2.c...
+..\..\common\htcluster.h(124): error:  #20: identifier "ODID_reserved04" is undefined
+..\..\common\htcluster.h:       ODID_dnid   = ODID_reserved04,      // always maps to htnThis.DNID, 1Byte, read only
+..\..\common\htcluster.h:                     ^
+..\..\common\htcluster.h(126): error:  #20: identifier "ODID_reserved05" is undefined
+..\..\common\htcluster.h:       ODID_uplink = ODID_reserved05,    // always maps to htnThis.nidUplink, 4Byte, read/write
+..\..\common\htcluster.h:                     ^
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+water2.c(710): error:  #169: expected a declaration
+water2.c:     OD_DECLARE(status,     ODTID_BYTE, ODF_Readable|ODF_Writeable, &byteStatus, 1)
+water2.c:     ^
+water2.c(724): warning:  #12-D: parsing restarts here after previous syntax error
+water2.c:   const uint8_t EVENTOID_OF_Heartbeat[] ={1,2,3};
+water2.c:                                                 ^
+water2.c(727): error:  #20: identifier "ODEvent_USER_MIN" is undefined
+water2.c:       ODEvent_USER_Event1 = ODEvent_USER_MIN, 
+water2.c:                             ^
+water2.c(726): warning:  #99-D: a declaration here must declare a parameter
+water2.c:   enum {
+water2.c:   ^
+water2.c(730): error:  #85: invalid storage class for a parameter
+water2.c:   static const uint8_t event_objIds[] = {ODID_data1, ODID_data2, ODID_NONE};
+water2.c:   ^
+water2.c(730): error:  #99: a declaration here must declare a parameter
+water2.c:   static const uint8_t event_objIds[] = {ODID_data1, ODID_data2, ODID_NONE};
+water2.c:                        ^
+water2.c(730): error:  #78: a parameter declaration may not have an initializer
+water2.c:   static const uint8_t event_objIds[] = {ODID_data1, ODID_data2, ODID_NONE};
+water2.c:                        ^
+water2.c(730): error:  #20: identifier "ODID_NONE" is undefined
+water2.c:   static const uint8_t event_objIds[] = {ODID_data1, ODID_data2, ODID_NONE};
+water2.c:                                                                  ^
+water2.c(731): error:  #99: a declaration here must declare a parameter
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(731): error:  #78: a parameter declaration may not have an initializer
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(731): error:  #20: identifier "OD_Event" is undefined
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(731): error:  #99: a declaration here must declare a parameter
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(731): error:  #78: a parameter declaration may not have an initializer
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(731): error:  #20: identifier "ODEvent_Heartbeat" is undefined
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(731): error:  #20: identifier "EVENTOID_OF_Heartbeat" is undefined
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(732): error:  #28: expression must have a constant value
+water2.c:       ODEVENT_DECLARE(USER_Event1, event_objIds)
+water2.c:       ^
+water2.c(733): error:  #20: identifier "ODEvent_NONE" is undefined
+water2.c:   USR_ODEVENT_DECLARE_END()
+water2.c:   ^
+water2.c(735): error:  #99: a declaration here must declare a parameter
+water2.c:   HtNode   htnThis; // supposed to be in htcluster.c when full compile
+water2.c:            ^
+water2.c(735): error: At end of source:  #130: expected a "{"
+water2.c(735): error: At end of source:  #67: expected a "}"
+water2.c: water2.c: 2 warnings, 21 errors
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling si4432.c...
+compiling pbuf.c...
+compiling io.c...
+compiling htcomm.c...
+compiling 1wire.c...
+compiling ds18b20.c...
+compiling pulses.c...
+compiling delay.c...
+compiling pulses_cap.c...
+Target not created
+Build target 'flash'
+compiling system_stm32f10x.c...
+..\..\common\htcluster.h(124): error:  #20: identifier "ODID_reserved04" is undefined
+..\..\common\htcluster.h:       ODID_dnid   = ODID_reserved04,      // always maps to htnThis.DNID, 1Byte, read only
+..\..\common\htcluster.h:                     ^
+..\..\common\htcluster.h(126): error:  #20: identifier "ODID_reserved05" is undefined
+..\..\common\htcluster.h:       ODID_uplink = ODID_reserved05,    // always maps to htnThis.nidUplink, 4Byte, read/write
+..\..\common\htcluster.h:                     ^
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+includes.h: system_stm32f10x.c: 0 warnings, 3 errors
+compiling isr_water2.c...
+..\..\common\htcluster.h(124): error:  #20: identifier "ODID_reserved04" is undefined
+..\..\common\htcluster.h:       ODID_dnid   = ODID_reserved04,      // always maps to htnThis.DNID, 1Byte, read only
+..\..\common\htcluster.h:                     ^
+..\..\common\htcluster.h(126): error:  #20: identifier "ODID_reserved05" is undefined
+..\..\common\htcluster.h:       ODID_uplink = ODID_reserved05,    // always maps to htnThis.nidUplink, 4Byte, read/write
+..\..\common\htcluster.h:                     ^
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+includes.h: isr_water2.c: 0 warnings, 3 errors
+compiling bsp_water2.c...
+..\..\common\htcluster.h(124): error:  #20: identifier "ODID_reserved04" is undefined
+..\..\common\htcluster.h:       ODID_dnid   = ODID_reserved04,      // always maps to htnThis.DNID, 1Byte, read only
+..\..\common\htcluster.h:                     ^
+..\..\common\htcluster.h(126): error:  #20: identifier "ODID_reserved05" is undefined
+..\..\common\htcluster.h:       ODID_uplink = ODID_reserved05,    // always maps to htnThis.nidUplink, 4Byte, read/write
+..\..\common\htcluster.h:                     ^
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+includes.h: bsp_water2.c: 0 warnings, 3 errors
+compiling main0.c...
+..\..\common\htcluster.h(124): error:  #20: identifier "ODID_reserved04" is undefined
+..\..\common\htcluster.h:       ODID_dnid   = ODID_reserved04,      // always maps to htnThis.DNID, 1Byte, read only
+..\..\common\htcluster.h:                     ^
+..\..\common\htcluster.h(126): error:  #20: identifier "ODID_reserved05" is undefined
+..\..\common\htcluster.h:       ODID_uplink = ODID_reserved05,    // always maps to htnThis.nidUplink, 4Byte, read/write
+..\..\common\htcluster.h:                     ^
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+main0.c(90): warning:  #111-D: statement is unreachable
+main0.c:        return 0;
+main0.c:        ^
+main0.c: main0.c: 1 warning, 3 errors
+compiling water2.c...
+..\..\common\htcluster.h(124): error:  #20: identifier "ODID_reserved04" is undefined
+..\..\common\htcluster.h:       ODID_dnid   = ODID_reserved04,      // always maps to htnThis.DNID, 1Byte, read only
+..\..\common\htcluster.h:                     ^
+..\..\common\htcluster.h(126): error:  #20: identifier "ODID_reserved05" is undefined
+..\..\common\htcluster.h:       ODID_uplink = ODID_reserved05,    // always maps to htnThis.nidUplink, 4Byte, read/write
+..\..\common\htcluster.h:                     ^
+includes.h(56): error:  #20: identifier "ODID_USER_MIN" is undefined
+includes.h:     ODID_data1 = ODID_USER_MIN, ODID_data2
+includes.h:                  ^
+water2.c(710): error:  #169: expected a declaration
+water2.c:     OD_DECLARE(status,     ODTID_BYTE, ODF_Readable|ODF_Writeable, &byteStatus, 1)
+water2.c:     ^
+water2.c(724): warning:  #12-D: parsing restarts here after previous syntax error
+water2.c:   const uint8_t EVENTOID_OF_Heartbeat[] ={1,2,3};
+water2.c:                                                 ^
+water2.c(727): error:  #20: identifier "ODEvent_USER_MIN" is undefined
+water2.c:       ODEvent_USER_Event1 = ODEvent_USER_MIN, 
+water2.c:                             ^
+water2.c(726): warning:  #99-D: a declaration here must declare a parameter
+water2.c:   enum {
+water2.c:   ^
+water2.c(730): error:  #85: invalid storage class for a parameter
+water2.c:   static const uint8_t event_objIds[] = {ODID_data1, ODID_data2, ODID_NONE};
+water2.c:   ^
+water2.c(730): error:  #99: a declaration here must declare a parameter
+water2.c:   static const uint8_t event_objIds[] = {ODID_data1, ODID_data2, ODID_NONE};
+water2.c:                        ^
+water2.c(730): error:  #78: a parameter declaration may not have an initializer
+water2.c:   static const uint8_t event_objIds[] = {ODID_data1, ODID_data2, ODID_NONE};
+water2.c:                        ^
+water2.c(730): error:  #20: identifier "ODID_NONE" is undefined
+water2.c:   static const uint8_t event_objIds[] = {ODID_data1, ODID_data2, ODID_NONE};
+water2.c:                                                                  ^
+water2.c(731): error:  #99: a declaration here must declare a parameter
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(731): error:  #78: a parameter declaration may not have an initializer
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(731): error:  #20: identifier "OD_Event" is undefined
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(731): error:  #99: a declaration here must declare a parameter
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(731): error:  #78: a parameter declaration may not have an initializer
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(731): error:  #20: identifier "ODEvent_Heartbeat" is undefined
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(731): error:  #20: identifier "EVENTOID_OF_Heartbeat" is undefined
+water2.c:   USR_ODEVENT_DECLARE_START()
+water2.c:   ^
+water2.c(732): error:  #28: expression must have a constant value
+water2.c:       ODEVENT_DECLARE(USER_Event1, event_objIds)
+water2.c:       ^
+water2.c(733): error:  #20: identifier "ODEvent_NONE" is undefined
+water2.c:   USR_ODEVENT_DECLARE_END()
+water2.c:   ^
+water2.c(735): error:  #99: a declaration here must declare a parameter
+water2.c:   HtNode   htnThis; // supposed to be in htcluster.c when full compile
+water2.c:            ^
+water2.c(735): error: At end of source:  #130: expected a "{"
+water2.c(735): error: At end of source:  #67: expected a "}"
+water2.c: water2.c: 2 warnings, 21 errors
+Target not created

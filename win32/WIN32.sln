@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTOSDemo", "RTOSDemo.vcxproj", "{C686325E-3261-42F7-AEB1-DDE5280E1CEB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTOS_lwip", "RTOS_lwip.vcxproj", "{C686325E-3261-42F7-AEB1-DDE5280E1CAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lwIP_FreeRTOS", "lwIP_FreeRTOS.vcxproj", "{2CC276FA-B226-49C9-8F82-7FCD5A228EAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lwIP pcapif", "lwIP_pcapif.vcxproj", "{6F44E49E-9F21-4144-91EC-53B92AEFAACE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lwIP_win32", "lwIP_win32.vcxproj", "{2CC276FA-B226-49C9-8F82-7FCD5A238EAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug unittests|Win32 = Debug unittests|Win32
+		Debug|Win32 = Debug|Win32
+		Release unittests|Win32 = Release unittests|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C686325E-3261-42F7-AEB1-DDE5280E1CEB}.Debug unittests|Win32.ActiveCfg = Debug|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CEB}.Debug unittests|Win32.Build.0 = Debug|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CEB}.Debug|Win32.Build.0 = Debug|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CEB}.Release unittests|Win32.ActiveCfg = Release|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CEB}.Release unittests|Win32.Build.0 = Release|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CEB}.Release|Win32.ActiveCfg = Release|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CEB}.Release|Win32.Build.0 = Release|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CAA}.Debug unittests|Win32.ActiveCfg = Debug|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CAA}.Debug unittests|Win32.Build.0 = Debug|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CAA}.Debug|Win32.Build.0 = Debug|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CAA}.Release unittests|Win32.ActiveCfg = Release|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CAA}.Release unittests|Win32.Build.0 = Release|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CAA}.Release|Win32.ActiveCfg = Release|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CAA}.Release|Win32.Build.0 = Release|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A228EAA}.Debug unittests|Win32.ActiveCfg = Debug unittests|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A228EAA}.Debug unittests|Win32.Build.0 = Debug unittests|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A228EAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A228EAA}.Debug|Win32.Build.0 = Debug|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A228EAA}.Release unittests|Win32.ActiveCfg = Release unittests|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A228EAA}.Release unittests|Win32.Build.0 = Release unittests|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A228EAA}.Release|Win32.ActiveCfg = Release|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A228EAA}.Release|Win32.Build.0 = Release|Win32
+		{6F44E49E-9F21-4144-91EC-53B92AEFAACE}.Debug unittests|Win32.ActiveCfg = Debug|Win32
+		{6F44E49E-9F21-4144-91EC-53B92AEFAACE}.Debug unittests|Win32.Build.0 = Debug|Win32
+		{6F44E49E-9F21-4144-91EC-53B92AEFAACE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F44E49E-9F21-4144-91EC-53B92AEFAACE}.Debug|Win32.Build.0 = Debug|Win32
+		{6F44E49E-9F21-4144-91EC-53B92AEFAACE}.Release unittests|Win32.ActiveCfg = Release|Win32
+		{6F44E49E-9F21-4144-91EC-53B92AEFAACE}.Release unittests|Win32.Build.0 = Release|Win32
+		{6F44E49E-9F21-4144-91EC-53B92AEFAACE}.Release|Win32.ActiveCfg = Release|Win32
+		{6F44E49E-9F21-4144-91EC-53B92AEFAACE}.Release|Win32.Build.0 = Release|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A238EAA}.Debug unittests|Win32.ActiveCfg = Debug unittests|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A238EAA}.Debug unittests|Win32.Build.0 = Debug unittests|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A238EAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A238EAA}.Debug|Win32.Build.0 = Debug|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A238EAA}.Release unittests|Win32.ActiveCfg = Release unittests|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A238EAA}.Release unittests|Win32.Build.0 = Release unittests|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A238EAA}.Release|Win32.ActiveCfg = Release|Win32
+		{2CC276FA-B226-49C9-8F82-7FCD5A238EAA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

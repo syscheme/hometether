@@ -1,0 +1,283 @@
+Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 2011-09-22 22:33:09
+
+BeginCmp
+TimeStamp = /4DFA1CEE;
+Reference = C2;
+ValeurCmp = 10p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA1CED;
+Reference = C3;
+ValeurCmp = 10p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA1C3B;
+Reference = C4;
+ValeurCmp = 10p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA1C66;
+Reference = C5;
+ValeurCmp = 10p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA1E5C;
+Reference = C6;
+ValeurCmp = 104;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E7B390F;
+Reference = C7;
+ValeurCmp = 104;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E7B3939;
+Reference = C8;
+ValeurCmp = 10u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA1B91;
+Reference = D1;
+ValeurCmp = 1N4148;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E7B4436;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA19C4;
+Reference = IC1;
+ValeurCmp = STM32F10XRC;
+IdModule  = TQFP_64;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E788AC7;
+Reference = IC2;
+ValeurCmp = REG1117;
+IdModule  = SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E776890;
+Reference = P-ADC1;
+ValeurCmp = CONN_4X2;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E776A54;
+Reference = P-DRV1;
+ValeurCmp = CONN_4X2;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA3195;
+Reference = P1;
+ValeurCmp = TFT2.8IN;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA2EFA;
+Reference = P2;
+ValeurCmp = JTAG;
+IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E776F75;
+Reference = P3;
+ValeurCmp = CONN_8;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E776606;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA1C0F;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA2FFB;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA2FDE;
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA2FCA;
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E776629;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E77670C;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E77670B;
+Reference = R8;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E777077;
+Reference = R9;
+ValeurCmp = 120;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E777011;
+Reference = R10;
+ValeurCmp = 120;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E7B424B;
+Reference = R11;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E7B4476;
+Reference = R12;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E7765CB;
+Reference = RP1;
+ValeurCmp = 10K;
+IdModule  = MSOP_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E7765DA;
+Reference = RP2;
+ValeurCmp = 10K;
+IdModule  = MSOP_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E77670E;
+Reference = RP3;
+ValeurCmp = 10K;
+IdModule  = MSOP_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E77670D;
+Reference = RP4;
+ValeurCmp = 10K;
+IdModule  = MSOP_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E7B3A1D;
+Reference = SPI1;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E7B3F72;
+Reference = STAT1;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E7B3F19;
+Reference = STAT2;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA264C;
+Reference = U1;
+ValeurCmp = MAX485;
+IdModule  = SSOP8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA2B00;
+Reference = U2;
+ValeurCmp = NRF24L01;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA226A;
+Reference = U3;
+ValeurCmp = YJA1050A;
+IdModule  = SSOP8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA1CEF;
+Reference = X1;
+ValeurCmp = 32.768K;
+IdModule  = QMONTRE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DFA1BAB;
+Reference = X2;
+ValeurCmp = 8M;
+IdModule  = VALVE-GLIMM;
+EndCmp
+
+EndListe

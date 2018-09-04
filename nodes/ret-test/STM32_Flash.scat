@@ -1,0 +1,33 @@
+;******************************************************************************
+;
+;                         SCATTER LOADING DESCRIPTION
+;                                    ARM
+;                             KEIL's uVision3 
+;                   (RealView Microprocessor Developer Kit)
+;
+; Filename      : STM32_Flash.scat
+;******************************************************************************
+; STM32F103xExx: 512KB Flash(0x80000000+0x80000) + 64KB RAM(0x20000000+0x10000)
+; STM32F103xDxx: 384KB Flash(0x80000000+0x60000) + 64KB RAM(0x20000000+0x10000)
+; STM32F103xCxx: 256KB Flash(0x80000000+0x40000) + 48KB RAM(0x20000000+0x0C000)
+; STM32F103xBxx: 128KB Flash(0x80000000+0x20000) + 20KB RAM(0x20000000+0x05000)
+; STM32F103x8xx:  64KB Flash(0x80000000+0x10000) + 20KB RAM(0x20000000+0x05000)
+; STM32F103x6xx:  32KB Flash(0x80000000+0x08000) + 10KB RAM(0x20000000+0x02800)
+
+LR_IROM1 0x08000000 0x00020000 									;; Load region
+{
+    ER_IROM1 0x08000000	0x08020000
+    {
+        vectors.o (VECT, +First)
+        init.o (INIT)
+        * (+RO)
+    }
+
+    RW_IRAM1 0x20000000 0x00004C00
+    {
+        * (+RW,+ZI)
+    }                                                           ;; The following declarations select the "two region model" ;
+                                                                ;; A default __user_initial_stackheap() will be used        ;
+    ARM_LIB_HEAP  0x20004700 EMPTY  0x00000200   {}
+    ARM_LIB_STACK 0x20004B00 EMPTY -0x00000200   {}
+}

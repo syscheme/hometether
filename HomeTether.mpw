@@ -1,0 +1,9 @@
+
+[WORKSPACE]
+  MPW_NAME="HomeTether"
+  Project=".\nodes\water\water.uv2"
+  Project=".\nodes\IS\IS.uv2",X
+  Project=".\nodes\secu\secu.uv2"
+  Project=".\nodes\IS\shis.uv2",A,X
+  Project=".\nodes\IS\is_common.uv2",X
+

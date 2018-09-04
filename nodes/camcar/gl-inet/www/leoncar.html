@@ -1,0 +1,410 @@
+<!doctype html>
+<!--[if lt ie 7]>
+<html class="ie ie6 lte9 lte8 lte7" lang="zh-cn" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if ie 7]>
+<html class="ie ie7 lte9 lte8 lte7" lang="zh-cn" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if ie 8]>
+<html class="ie ie8 lte9 lte8" lang="zh-cn" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if ie 9]>
+<html class="ie ie9" lang="zh-cn" prefix="og: http://ogp.me/ns#"> 
+<![endif]-->
+<!--[if gt ie 9]>  <html lang="zh-cn" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if !ie]><!-->
+<html lang="zh-cn" prefix="og: http://ogp.me/ns#"><!--<![endif]--><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0; maximum-scale=3.0; width=device-width">
+	
+	<title>Leon's WebCar</title>
+	
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	
+	<!-- ie6-8 support of html5 elements -->
+	<!--[if lt ie 9]>
+		<script src="js1/html5.js" type="text/javascript"></script>
+	<![endif]-->
+	
+	<script type="text/javascript">
+
+	var imageNr = 0; // Serial number of current image
+	var finished = new Array(); // References to img objects which have finished downloading
+	var paused = false;
+
+	function createImageLayer() {
+	  var img = new Image();
+	  img.style.position = "absolute";
+	  img.style.zIndex = -1;
+	  img.onload = imageOnload;
+	  img.onclick = imageOnclick;
+	  img.src = window.location.protocol + "//" + window.location.hostname+":"+videoport+"/?action=snapshot&n=" + (++imageNr);
+	  var webcam = document.getElementById("webcam");
+	  webcam.insertBefore(img, webcam.firstChild);
+	  
+	}
+
+	// Two layers are always present (except at the very beginning), to avoid flicker
+	function imageOnload() {
+	  this.style.zIndex = imageNr; // Image finished, bring to front!
+	  while (1 < finished.length) {
+		var del = finished.shift(); // Delete old image(s) from document
+		del.parentNode.removeChild(del);
+	  }
+	  finished.push(this);
+	  if (!paused) createImageLayer();
+	}
+
+	function imageOnclick() { // Clicking on the image will pause the stream
+	  paused = !paused;
+	  if (!paused) createImageLayer();
+	}
+	
+	function send(s)
+	{
+    var url = "http://" + location.hostname + "/cgi-bin/car?" + s;
+    xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("GET", url, true);
+    xmlHttp.send();
+	}
+</script>
+<link rel="stylesheet" id="contact-form-7-css" href="/css/styles.css?ver=3.3.3" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-style-css" href="/css/bootstrap.min.css?ver=2.0.4" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-responsive-style-css" href="/css/bootstrap-responsive.min.css?ver=2.0.4" type="text/css" media="all">
+<link rel="stylesheet" id="cyberchimps_responsive-css" href="/css/cyberchimps-responsive.min.css?ver=1.0" type="text/css" media="all">
+<link rel="stylesheet" id="core-style-css" href="/css/core.css?ver=1.0" type="text/css" media="all">
+<link rel="stylesheet" id="style-css" href="/css/style.css?ver=1.0" type="text/css" media="all">
+<link rel="stylesheet" id="skin-style-css" href="/css/grey.css?ver=1.0" type="text/css" media="all">
+<link rel="stylesheet" id="elements_style-css" href="/css/elements.css?ver=3.5.1" type="text/css" media="all">
+<link rel="stylesheet" id="gl-css" href="/css/gl.css" type="text/css" media="all">
+<script type="text/javascript" src="/js/jquery-1.9.1.js" ></script>
+<script type="text/javascript" src="/js/jquery.slimbox.js?ver=1"></script>
+<script type="text/javascript" src="/js/jquery.jcarousel.min.js?ver=1"></script>
+<script type="text/javascript" src="/js/custom.js?ver=1"></script>
+<script type="text/javascript" src="/js/jquery.mobile.custom.min.js?ver=3.5.1"></script>
+<script type="text/javascript" src="/js/swipe-call.js?ver=3.5.1"></script>
+<script type="text/javascript" src="/js/comment-reply.min.js?ver=3.5.1"></script>
+<script type="text/javascript" src="/js/video.js?ver=3.5.1"></script>
+<script type="text/javascript" src="/js/elements.js?ver=3.5.1"></script>
+
+<style type="text/css" id="custom-background-css">
+	#main{margin-bottom:5px;margin-left:auto;margin-right:auto;}
+#main{margin:0px auto 0}
+	body.custom-background {  }
+  body {
+			font-size: 14px;     
+			font-family: arial, helvetica, sans-serif;     
+			font-weight: normal;     
+	  }
+	.container {
+	max-width: 960px;
+  }
+ .menu {
+		position: relative;
+		width: 150px;
+		height: 36px;
+		line-height: 36px;
+		font-size: 14px;
+		font-family: Microsoft Yahei;
+		background: #666666;
+		text-align: left;
+		border-top: 1px solid #ddd;
+}
+.menu a.selected {
+	color: #ffffff;
+	border-right-color: #fff;
+	background: #4a9eb6;
+}
+.menu a {
+	color:#ffffff;
+	padding-left: 15px;
+	display: block;
+	border: 1px solid #ddd;
+	border-top: none;
+	background: #aaaaaa;
+}
+</style>
+
+
+<body class="home page page-id-4 page-template-default">
+	<div class="container">
+		<div style="display:inline-block;width:100%;min-width:400px;">
+			<div style="display:inline;line-height:30px;float:left;">
+				<label style="display:inline-block"><a href="http://gz8cd.gl-inet.com"> <b id="ddns_name"></b></a></label>
+				<label style="display:inline-block;margin-left:20px" id="ddns_availablity"> </label>
+			</div>
+		</div>
+		
+		<div id="wrapper" class="container-fluid" style="min-height:600px">	
+			<header id="cc-header" class="row-fluid">
+				<div class="span7">
+					<hgroup>
+						<h1 class="site-title">立安小车</h1>
+					</hgroup>
+				</div>	
+				<div id="register" class="span5">
+					<div class="contact_details">
+					</div>
+				</div>
+			</header>
+			
+			<nav id="navigation" class="row-fluid" role="navigation">
+				<div class="main-navigation navbar">
+					<div class="navbar-inner">
+						<div class="container">
+							<div>
+								<ul id="menu-menu" class="nav">
+									<li><a href='javascript:send("MFD20")' >前进</a></li>
+									<li><a href='javascript:send("MFL20")' >左前</a></li>
+									<li><a href='javascript:send("MFR20")' >右前</a></li>
+									<li><a href='javascript:send("MBD20")' >后退</a></li>
+									<li><a href='javascript:send("MBL20")' >左后</a></li>
+									<li><a href='javascript:send("MBR20")' >右后</a></li>
+								</ul>			
+							</div><!-- collapse -->
+						</div><!-- container -->
+					</div><!-- .navbar-inner .row-fluid -->
+				</div><!-- main-navigation navbar -->
+			</nav><!-- #navigation -->
+			
+			<div id="container" class="row-fluid" >
+				<div id="content" class="span12" style="float:left;margin-left:-20px;margin-top:-80px">
+					
+					<article id="post-4" class="post-4 page type-page status-publish hentry">
+  
+						<div class="entry-summary">
+							
+							<div id="div_main">
+							  <form action="/cgi-bin/video_cgi" method="post" id="form">
+								<input type="hidden" name="action" value="set">
+								<div style="width:100%; margin:auto;line-height:20px;height:20px;vertical-align:left;">
+									<select hidden='1' style="float:left;width:120px" name="device" id="video_devices" onchange="refreshDevices();">
+									</select>
+									<label  style="float:left;margin-left:10px;line-height:30px;">分辨率</label>
+									<select  style="float:left;width:100px" name="resolution" id="video_resolution">
+									</select>
+									<label  style="float:left;margin-left:10px;line-height:30px;">帧数</label>
+									<select style="float:left;width:60px" name="fps" id="video_fps">
+										<option value="5">5</option>
+										<option value="10">10</option>
+										<option value="15" selected>15</option>
+										<option value="20">20</option>
+										<option value="25">25</option>
+										<option value="30">30</option> 
+									</select>
+									<input  style="float:left;margin-left:10px" type="submit" name="submit" id="submit" value="设置">
+								</div>
+								<div id="div_msg" style="color:red;margin-top:10px;text-align:center"></div>
+							</form>
+
+							 <div class="seperator1">
+							 	
+							 </div> 
+							 <div id="webcam" style="text-align:center;margin-left:auto;margin-right:auto;">
+							 </div>
+							</div>
+							
+							
+						</div><!-- .entry-summary -->
+		
+		
+						<footer class="entry-meta">
+						</footer><!-- #entry-meta -->
+					</article><!-- #post-4 -->
+					
+				</div><!-- #content -->
+			</div><!-- #container .row-fluid-->
+	
+		</div><!-- #wrapper .container-fluid -->
+		
+
+
+		<footer class="site-footer row-fluid">
+		
+			<div id="copyright">© gl.inet</div>	
+		</footer><!-- .site-footer .row-fluid -->
+
+
+		</div><!-- #wrapper .container-fluid -->
+<script>
+
+	function IE(v) {
+		var r = RegExp('msie' + (!isNaN(v) ? ('\\s' + v) : ''), 'i');
+		return r.test(navigator.userAgent);
+	}
+	
+	var videoport=8083;
+	$.ajaxSetup({
+		cache: false
+	});
+    $.ajax({
+    type : 'GET',
+    dataType : 'json',
+    url : "/cgi-bin/cgi?action=checklogin",
+    success : function(result){
+		if(!result.logged){
+		  window.location="/index.html";
+		}
+	}
+    });
+	function translate_page(lang){
+		$("body").append("<div id='overlay' style='background-color:rgba(0,0,0,0.2);position:absolute;top:0;left:0;height:100%;width:100%;z-index:999;'><div style='position:absolute;top:50%;left:50%;margin-top:-15px;margin-left:-100px;background-color:rgba(255,255,255,1);padding:10px;border-radius:5px;'><img src='/image/loading.gif'> <font color=red size=4>正在转换语言...</font></div></div>");
+		$.ajax({
+			type : 'GET',
+			dataType : 'json',
+			url : "/cgi-bin/login_cgi?action=translate&lang="+lang,
+			success : function(result){
+				if(result.success){
+					window.location.reload(true);
+				}else{
+					alert("translation failed");
+				}
+			}
+		});
+	}    
+    var cgi_result;
+    $.ajax({
+		type : 'GET',
+		dataType : 'json',
+		cache:false,
+		url : "/cgi-bin/video_cgi",
+		success : function(result){
+			
+			if(typeof result.success != 'undefined')
+			window.location="/login.html";
+			
+		  //is there is no devices
+		  if(result.devices.length==0){
+		    $("#post-4").html("<header class='entry-header'><h2 class='entry-title'>找不到任何视频设备</h2></header>");
+		    return;
+		  }else{
+			var cam_supported=false;
+			for (var i=0;i<result.devices.length;i++) {
+				if(result.devices[i].MJPEG || result.devices[i].YUV) cam_supported=true;
+			}
+			if(!cam_supported){
+				$("#post-4").html("<header class='entry-header'><h2 class='entry-title'>你的摄像头不支持MJPEG或者YUV格式，请换其他摄像头</h2></header>");
+				 return;
+			}
+		  }
+		  cgi_result=result;
+		  //first need to add the device list
+		  var video_devices=document.getElementById("video_devices");
+		  for (var i=0;i<result.devices.length;i++) {
+		    if(!result.devices[i].MJPEG && !result.devices[i].YUV) continue;
+			var option=document.createElement("option");
+			option.text = result.devices[i].device;
+			try {
+			  video_devices.add(option,video_devices[null]); //for IE earlier than 8
+			} catch(e) {
+			  video_devices.add(option,null);
+			}
+		  }
+		  
+		  var device=result.config.device;
+		  var resolution=result.config.resolution;
+		  var fps = result.config.fps;
+		  var port = result.config.port;
+		  videoport=port;
+		  
+		  var video_resolution=document.getElementById("video_resolution");
+		  for(var i=0;i<result.devices.length;i++){
+			if(result.devices[i].device==device){
+				var supported;
+				if(result.devices[i].MJPEG){
+					supported=result.devices[i].mjpeg_support;
+				}else if(result.devices[i].YUV){
+					supported=result.devices[i].yuv_support;
+				}
+				
+				for(var j=0;j<supported.length;j++){
+					var option = document.createElement("option");
+					option.text = supported[j].width.toString().concat("x", supported[j].height.toString());
+					try {
+						video_resolution.add(option,video_resolution[null]); //for IE earlier than 8
+					} catch(e) {
+						video_resolution.add(option,null);
+					}
+				}
+			}
+		  }
+		  
+		  $("#video_devices").val(device);
+		  $("#video_resolution").val(resolution);
+		  $("#video_fps").val(fps);
+		  var video_size=resolution.split("x");
+		  //if ie
+		  if(IE()){
+		    var webcam=document.getElementById('webcam');
+			webcam.style.width=video_size[0] + "px";
+			webcam.style.height=video_size[1]+ "px";
+			createImageLayer();
+			$("#div_msg").html("IE浏览器存在兼容性问题，可能会导致视频无法显示，建议您使用firefox，safari或chrome浏览器。");
+		  }
+		   //if other browser
+		  else{
+		  	var html = "<img id='img1' src=''></img>";
+		  	$("#webcam").append(html);
+		  	
+			var source = window.location.protocol + "//" + window.location.hostname + ":"+ port+"/?action=stream";
+			$("#img1").attr("src",source);
+			$("#img1").css("width",video_size[0]+"px");
+			$("#img1").css("height",video_size[1]+"px");
+
+		  }
+		}
+    });
+    function refreshDevices(){
+	  var video_resolution=document.getElementById("video_resolution");
+	  var current_device=$("#video_devices").val();
+	  $("#video_resolution").empty();
+		  for(var i=0;i<cgi_result.devices.length;i++){
+			if(cgi_result.devices[i].device==current_device){
+			var supported=cgi_result.devices[i].support;
+			for(var j=0;j<supported.length;j++){
+				var option = document.createElement("option");
+				option.text = supported[j].width.toString().concat("x", supported[j].height.toString());
+				try {
+				video_resolution.add(option,video_resolution[null]); //for IE earlier than 8
+				} catch(e) {
+				video_resolution.add(option,null);
+				}
+			}
+			}
+		  }
+      }
+      $("#submit").click(function(){
+	$("#div_msg").html("正在更新，请稍候...");
+	$.ajax({
+	    type: "POST",
+	    url: "/cgi-bin/video_cgi",
+	    data: $("#form").serialize(),
+	    success: function(result){
+		$("#div_msg").html("");
+		window.location.href="leoncar.html";
+	    }
+	});
+	return false;
+      });
+      
+      function checkAvailability(){
+		$.ajax({
+			type : 'GET',
+			dataType: 'json',
+			url: "/cgi-bin/router_cgi?action=checkavailability",
+			success: function(result){
+				if(result.available){
+					$("#ddns_availablity").text("");
+				}else{
+					$("#ddns_availablity").text("");
+				}
+			}
+		});
+	}
+	checkAvailability();
+</script>
+
+
+	</div>
+</body>
+</html>

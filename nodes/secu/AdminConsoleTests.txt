@@ -1,0 +1,9 @@
+AdminConsole Tests
+1. force to change gstate, od=2000, param: gstate, masterId
+   a) force to soc_Easy
+			PUT ht:10/2000?gstate=1
+	 b) forc
+2. master's heartbeat to push into slave mode
+   a) PUT can:680N3V050000
+
+GET 10/2000

@@ -1,0 +1,21 @@
+-- ** Service of NSS
+-- **  start
+    nss1    OBJECT IDENTIFIER
+    ::= {tianShanService 1410}
+
+    nssExport    OBJECT IDENTIFIER
+    ::= {nss1 5}
+
+    nssStat    OBJECT IDENTIFIER
+    ::= {nssExport 1}
+
+    nssStat-SessionCount  OBJECT-TYPE
+      SYNTAX INTEGER
+      MAX-ACCESS read-only
+      STATUS current
+      DESCRIPTION
+          "the count of active sessions in NSS"
+      ::= {nssStat 2}
+
+-- ** Service of NSS
+-- **  end
