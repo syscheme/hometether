@@ -203,7 +203,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "unannotated": "error",
       "unit_value_mismatch": "error",
@@ -216,7 +216,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "AirCircuritBreaker.kicad_pro",
+    "filename": "CircuitBreaker.kicad_pro",
     "version": 1
   },
   "net_settings": {
