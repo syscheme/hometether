@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>D:\wkspaces\HomeTether\kicad\CircuitBreaker\CircuitBreaker.kicad_sch</source>
-    <date>2023/4/6 15:50:31</date>
+    <date>2023/4/6 17:20:03</date>
     <tool>Eeschema (6.0.11)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -26,7 +26,7 @@
   <components>
     <comp ref="C1">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -35,7 +35,7 @@
     </comp>
     <comp ref="C2">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -44,7 +44,7 @@
     </comp>
     <comp ref="C3">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -53,7 +53,7 @@
     </comp>
     <comp ref="C4">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -62,7 +62,7 @@
     </comp>
     <comp ref="C5">
       <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -71,7 +71,7 @@
     </comp>
     <comp ref="C6">
       <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -107,7 +107,7 @@
     </comp>
     <comp ref="C10">
       <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -142,33 +142,6 @@
       <tstamps>c07a5c95-f059-4fa8-ba50-b8c87ea51725</tstamps>
     </comp>
     <comp ref="J6">
-      <value>Conn_01x04_downlink</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>484d3560-beec-4cac-ad2b-5e1f4b91063d</tstamps>
-    </comp>
-    <comp ref="J7">
-      <value>PH2.54</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>3c5fb37c-c9c3-4123-899a-868e80eda11f</tstamps>
-    </comp>
-    <comp ref="J9">
-      <value>Conn_01x04_uplink</value>
-      <footprint>Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b23dc346-f152-4ae4-943a-d785acc68437</tstamps>
-    </comp>
-    <comp ref="J10">
       <value>Conn_01x04_uplink</value>
       <footprint>Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -176,6 +149,15 @@
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8d7c933c-f4ee-46e2-8572-6e1196f4bf56</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>PH2.54</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c5fb37c-c9c3-4123-899a-868e80eda11f</tstamps>
     </comp>
     <comp ref="JP1">
       <value>bus-type</value>
@@ -305,7 +287,7 @@
     </comp>
     <comp ref="R9">
       <value>47K</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -314,7 +296,7 @@
     </comp>
     <comp ref="R10">
       <value>47K</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -323,7 +305,7 @@
     </comp>
     <comp ref="R11">
       <value>47K</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -332,7 +314,7 @@
     </comp>
     <comp ref="R12">
       <value>47K</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -341,7 +323,7 @@
     </comp>
     <comp ref="R13">
       <value>10K</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -350,7 +332,7 @@
     </comp>
     <comp ref="R14">
       <value>10K</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -359,7 +341,7 @@
     </comp>
     <comp ref="R15">
       <value>10K</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -368,7 +350,7 @@
     </comp>
     <comp ref="R16">
       <value>300</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -377,7 +359,7 @@
     </comp>
     <comp ref="R17">
       <value>10K</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -386,7 +368,7 @@
     </comp>
     <comp ref="R18">
       <value>22</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -395,7 +377,7 @@
     </comp>
     <comp ref="R19">
       <value>22</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -404,7 +386,7 @@
     </comp>
     <comp ref="R20">
       <value>10K</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -413,7 +395,7 @@
     </comp>
     <comp ref="R21">
       <value>10K</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -422,7 +404,7 @@
     </comp>
     <comp ref="R22">
       <value>10K</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -431,7 +413,7 @@
     </comp>
     <comp ref="R23">
       <value>10K</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -440,7 +422,7 @@
     </comp>
     <comp ref="R24">
       <value>10K</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -509,7 +491,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a5ecf292-1a1d-4981-866b-c5ae7a6e7b3e b1ff1dc4-490b-4f45-9764-cb4ce083e056 5c033fb4-c88c-479b-840d-2838e326ad84 865d4adb-d80b-45a8-a339-91181978116b 3af8da5d-a9ab-4c93-8b54-93343b5b1556</tstamps>
+      <tstamps>865d4adb-d80b-45a8-a339-91181978116b b1ff1dc4-490b-4f45-9764-cb4ce083e056 5c033fb4-c88c-479b-840d-2838e326ad84 a5ecf292-1a1d-4981-866b-c5ae7a6e7b3e 3af8da5d-a9ab-4c93-8b54-93343b5b1556</tstamps>
     </comp>
     <comp ref="U2">
       <value>STC8H8K64U-45I-TSSOP20</value>
@@ -834,8 +816,7 @@
     <net code="1" name="+3V3">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
@@ -852,7 +833,6 @@
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
@@ -871,13 +851,11 @@
     </net>
     <net code="5" name="/RXD_DWN">
       <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
     </net>
     <net code="6" name="/RXD_UP">
-      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
@@ -885,13 +863,11 @@
     </net>
     <net code="7" name="/TXD_DWN">
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
     </net>
     <net code="8" name="/TXD_UP">
-      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
@@ -949,12 +925,10 @@
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
