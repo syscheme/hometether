@@ -3536,7 +3536,7 @@
     (property "Reference" "R25" (id 0) (at 147.32 118.11 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1M" (id 1) (at 151.13 119.38 90)
+    (property "Value" "5vUP" (id 1) (at 151.13 119.38 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 149.86 121.158 90)
@@ -4090,7 +4090,7 @@
       (reference "R24") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/b9254481-42de-41b8-8b47-4a505cebb15c"
-      (reference "R25") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R25") (unit 1) (value "5vUP") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/e07fefd4-5202-4e30-b6e7-2e0271b2c212"
       (reference "R26") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0603_1608Metric")
