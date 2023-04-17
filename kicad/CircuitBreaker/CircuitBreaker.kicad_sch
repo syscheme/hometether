@@ -2648,7 +2648,7 @@
     (property "Reference" "D2" (id 0) (at 187.96 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "blue" (id 1) (at 187.96 44.45 0)
+    (property "Value" "blu" (id 1) (at 187.96 44.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 189.23 43.18 0)
@@ -2741,7 +2741,7 @@
     (property "Reference" "J7" (id 0) (at 119.38 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "PH2.54" (id 1) (at 125.73 133.35 90)
+    (property "Value" "PWN-In-5v" (id 1) (at 125.73 133.35 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 121.92 135.89 0)
@@ -2810,7 +2810,7 @@
     (in_bom yes) (on_board yes)
     (uuid 4a27f6f5-b0e4-4aa4-a25b-c8f6fbf1beb6)
     (property "Reference" "U2" (id 0) (at 146.05 43.18 0))
-    (property "Value" "STC8H8K64U-45I-TSSOP20" (id 1) (at 146.05 78.74 0))
+    (property "Value" "STC8H8K64U" (id 1) (at 146.05 78.74 0))
     (property "Footprint" "Package_SO:TSSOP-20_4.4x5mm_P0.4mm" (id 2) (at 139.7 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2932,7 +2932,7 @@
     (property "Reference" "D1" (id 0) (at 184.15 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "green" (id 1) (at 184.15 44.45 0)
+    (property "Value" "grn" (id 1) (at 184.15 44.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 185.42 43.18 0)
@@ -3245,7 +3245,7 @@
     (property "Reference" "J6" (id 0) (at 271.78 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x04_uplink" (id 1) (at 276.86 156.21 90)
+    (property "Value" "uplink" (id 1) (at 275.59 146.05 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical" (id 2) (at 274.32 147.32 0)
@@ -3555,7 +3555,7 @@
     (property "Reference" "J5" (id 0) (at 110.49 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x04_downlink" (id 1) (at 105.41 137.16 90)
+    (property "Value" "downlink" (id 1) (at 105.41 137.16 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" (id 2) (at 107.95 147.32 0)
@@ -3979,10 +3979,10 @@
       (reference "C10") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/5043d550-329f-4c22-af2e-a891b18ddb8a"
-      (reference "D1") (unit 1) (value "green") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D1") (unit 1) (value "grn") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/222a9ad1-ac03-480c-938b-316b28742e5a"
-      (reference "D2") (unit 1) (value "blue") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D2") (unit 1) (value "blu") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/ed5e7f7b-7ab0-466d-9f53-71c8cd09f405"
       (reference "J1") (unit 1) (value "PH2.54") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -3991,13 +3991,13 @@
       (reference "J4") (unit 1) (value "PH2.54") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/c07a5c95-f059-4fa8-ba50-b8c87ea51725"
-      (reference "J5") (unit 1) (value "Conn_01x04_downlink") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical")
+      (reference "J5") (unit 1) (value "downlink") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical")
     )
     (path "/8d7c933c-f4ee-46e2-8572-6e1196f4bf56"
-      (reference "J6") (unit 1) (value "Conn_01x04_uplink") (footprint "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical")
+      (reference "J6") (unit 1) (value "uplink") (footprint "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical")
     )
     (path "/3c5fb37c-c9c3-4123-899a-868e80eda11f"
-      (reference "J7") (unit 1) (value "PH2.54") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J7") (unit 1) (value "PWN-In-5v") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/f6fabe2b-8561-4cc8-8c90-c9ae9db53609"
       (reference "JP1") (unit 1) (value "bus-type") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels")
@@ -4129,7 +4129,7 @@
       (reference "U1") (unit 5) (value "LM324") (footprint "lib:SOP-14_3.9x9.9mm_P1.27mm")
     )
     (path "/4a27f6f5-b0e4-4aa4-a25b-c8f6fbf1beb6"
-      (reference "U2") (unit 1) (value "STC8H8K64U-45I-TSSOP20") (footprint "Package_SO:TSSOP-20_4.4x5mm_P0.4mm")
+      (reference "U2") (unit 1) (value "STC8H8K64U") (footprint "Package_SO:TSSOP-20_4.4x5mm_P0.4mm")
     )
     (path "/06ee62ce-0f50-4fac-8235-fc1e35a64b1b"
       (reference "U3") (unit 1) (value "AP1117-33") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
