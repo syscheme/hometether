@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>D:\wkspaces\HomeTether\kicad\CircuitBreaker\CircuitBreaker.kicad_sch</source>
-    <date>2023/4/6 22:41:57</date>
+    <date>2023/4/17 12:55:17</date>
     <tool>Eeschema (6.0.11)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -115,7 +115,7 @@
       <tstamps>96af99b3-a285-4d18-a3d5-151327299bde</tstamps>
     </comp>
     <comp ref="D1">
-      <value>green</value>
+      <value>grn</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
@@ -124,7 +124,7 @@
       <tstamps>5043d550-329f-4c22-af2e-a891b18ddb8a</tstamps>
     </comp>
     <comp ref="D2">
-      <value>blue</value>
+      <value>blu</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
@@ -151,7 +151,7 @@
       <tstamps>193502b3-a5e3-46c9-a7b1-77019833c298</tstamps>
     </comp>
     <comp ref="J5">
-      <value>Conn_01x04_downlink</value>
+      <value>downlink</value>
       <footprint>Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
@@ -160,7 +160,7 @@
       <tstamps>c07a5c95-f059-4fa8-ba50-b8c87ea51725</tstamps>
     </comp>
     <comp ref="J6">
-      <value>Conn_01x04_uplink</value>
+      <value>uplink</value>
       <footprint>Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
@@ -169,7 +169,7 @@
       <tstamps>8d7c933c-f4ee-46e2-8572-6e1196f4bf56</tstamps>
     </comp>
     <comp ref="J7">
-      <value>PH2.54</value>
+      <value>PWN-In-5v</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
@@ -448,7 +448,7 @@
       <tstamps>feac15e9-ddbd-4ace-8c55-bf9d7c00a73e</tstamps>
     </comp>
     <comp ref="R25">
-      <value>1M</value>
+      <value>5vUP</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -530,7 +530,7 @@
       <tstamps>5c033fb4-c88c-479b-840d-2838e326ad84 865d4adb-d80b-45a8-a339-91181978116b b1ff1dc4-490b-4f45-9764-cb4ce083e056 a5ecf292-1a1d-4981-866b-c5ae7a6e7b3e 3af8da5d-a9ab-4c93-8b54-93343b5b1556</tstamps>
     </comp>
     <comp ref="U2">
-      <value>STC8H8K64U-45I-TSSOP20</value>
+      <value>STC8H8K64U</value>
       <footprint>Package_SO:TSSOP-20_4.4x5mm_P0.4mm</footprint>
       <libsource lib="MCU-HT" part="STC8Hnnn20P" description=""/>
       <property name="Sheetname" value=""/>
@@ -1075,13 +1075,13 @@
       <node ref="R24" pin="1" pintype="passive"/>
       <node ref="U4" pin="1" pinfunction="~{RST}" pintype="input"/>
     </net>
-    <net code="31" name="Net-(U2-Pad17)">
-      <node ref="R27" pin="1" pintype="passive"/>
-      <node ref="U2" pin="17" pinfunction="P3.6/ADC14/RxD_2" pintype="bidirectional"/>
-    </net>
-    <net code="32" name="Net-(U2-Pad18)">
+    <net code="31" name="Net-(R26-Pad1)">
       <node ref="R26" pin="1" pintype="passive"/>
       <node ref="U2" pin="18" pinfunction="P3.7/INT3/TxD_2" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="P3.6/ADC14/RxD_2" pintype="bidirectional"/>
     </net>
     <net code="33" name="SCL">
       <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
