@@ -2778,7 +2778,7 @@
     (uuid 41b2986c-a9b1-4077-a88d-a6bcda6ce253)
     (property "Reference" "JP2" (id 0) (at 204.47 138.43 0))
     (property "Value" "bus-type" (id 1) (at 207.01 133.35 0))
-    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels" (id 2) (at 207.01 135.89 0)
+    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" (id 2) (at 207.01 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 207.01 135.89 0)
@@ -2811,7 +2811,7 @@
     (uuid 4a27f6f5-b0e4-4aa4-a25b-c8f6fbf1beb6)
     (property "Reference" "U2" (id 0) (at 146.05 43.18 0))
     (property "Value" "STC8H8K64U" (id 1) (at 146.05 78.74 0))
-    (property "Footprint" "Package_SO:TSSOP-20_4.4x5mm_P0.4mm" (id 2) (at 139.7 64.77 0)
+    (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (id 2) (at 139.7 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 139.7 64.77 0)
@@ -3807,7 +3807,7 @@
     (uuid f6fabe2b-8561-4cc8-8c90-c9ae9db53609)
     (property "Reference" "JP1" (id 0) (at 193.04 133.35 0))
     (property "Value" "bus-type" (id 1) (at 195.58 128.27 0))
-    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels" (id 2) (at 195.58 130.81 0)
+    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" (id 2) (at 195.58 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 195.58 130.81 0)
@@ -4000,10 +4000,10 @@
       (reference "J7") (unit 1) (value "PWN-In-5v") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/f6fabe2b-8561-4cc8-8c90-c9ae9db53609"
-      (reference "JP1") (unit 1) (value "bus-type") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels")
+      (reference "JP1") (unit 1) (value "bus-type") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm")
     )
     (path "/41b2986c-a9b1-4077-a88d-a6bcda6ce253"
-      (reference "JP2") (unit 1) (value "bus-type") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels")
+      (reference "JP2") (unit 1) (value "bus-type") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm")
     )
     (path "/095bcb87-9f60-42dc-b5fb-9fe5feadea0c"
       (reference "JP3") (unit 1) (value "I2C") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
@@ -4129,7 +4129,7 @@
       (reference "U1") (unit 5) (value "LM324") (footprint "lib:SOP-14_3.9x9.9mm_P1.27mm")
     )
     (path "/4a27f6f5-b0e4-4aa4-a25b-c8f6fbf1beb6"
-      (reference "U2") (unit 1) (value "STC8H8K64U") (footprint "Package_SO:TSSOP-20_4.4x5mm_P0.4mm")
+      (reference "U2") (unit 1) (value "STC8H8K64U") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
     )
     (path "/06ee62ce-0f50-4fac-8235-fc1e35a64b1b"
       (reference "U3") (unit 1) (value "AP1117-33") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
