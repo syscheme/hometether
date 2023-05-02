@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>D:\wkspaces\HomeTether\kicad\CircuitBreaker\CircuitBreaker.kicad_sch</source>
-    <date>2023/4/17 12:55:17</date>
+    <date>2023/5/2 18:33:46</date>
     <tool>Eeschema (6.0.11)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -115,7 +115,7 @@
       <tstamps>96af99b3-a285-4d18-a3d5-151327299bde</tstamps>
     </comp>
     <comp ref="D1">
-      <value>grn</value>
+      <value>led+</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
@@ -124,7 +124,7 @@
       <tstamps>5043d550-329f-4c22-af2e-a891b18ddb8a</tstamps>
     </comp>
     <comp ref="D2">
-      <value>blu</value>
+      <value>led</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
@@ -140,6 +140,24 @@
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ed5e7f7b-7ab0-466d-9f53-71c8cd09f405</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>PH2.54</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5354c1d-8f43-4b8e-82e1-092763d99e98</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>PH2.54</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0626044b-52d2-4454-842b-65a91de652dd</tstamps>
     </comp>
     <comp ref="J4">
       <value>PH2.54</value>
@@ -179,7 +197,7 @@
     </comp>
     <comp ref="JP1">
       <value>bus-type</value>
-      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
       <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -188,7 +206,7 @@
     </comp>
     <comp ref="JP2">
       <value>bus-type</value>
-      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
       <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -527,11 +545,11 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5c033fb4-c88c-479b-840d-2838e326ad84 865d4adb-d80b-45a8-a339-91181978116b b1ff1dc4-490b-4f45-9764-cb4ce083e056 a5ecf292-1a1d-4981-866b-c5ae7a6e7b3e 3af8da5d-a9ab-4c93-8b54-93343b5b1556</tstamps>
+      <tstamps>5c033fb4-c88c-479b-840d-2838e326ad84 a5ecf292-1a1d-4981-866b-c5ae7a6e7b3e 865d4adb-d80b-45a8-a339-91181978116b b1ff1dc4-490b-4f45-9764-cb4ce083e056 3af8da5d-a9ab-4c93-8b54-93343b5b1556</tstamps>
     </comp>
     <comp ref="U2">
       <value>STC8H8K64U</value>
-      <footprint>Package_SO:TSSOP-20_4.4x5mm_P0.4mm</footprint>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
       <libsource lib="MCU-HT" part="STC8Hnnn20P" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CircuitBreaker.kicad_sch"/>
@@ -981,6 +999,8 @@
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
@@ -1023,32 +1043,34 @@
       <node ref="T1" pin="4" pinfunction="SB" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="20" name="Net-(J4-Pad1)">
+    <net code="20" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="T2" pin="4" pinfunction="SB" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="T3" pin="4" pinfunction="SB" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(J4-Pad1)">
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="T4" pin="4" pinfunction="SB" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="-" pintype="input"/>
     </net>
-    <net code="21" name="Net-(JP5-Pad2)">
+    <net code="23" name="Net-(JP5-Pad2)">
       <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="U4" pin="21" pinfunction="GPIO3/RXD" pintype="bidirectional"/>
     </net>
-    <net code="22" name="Net-(JP6-Pad2)">
+    <net code="24" name="Net-(JP6-Pad2)">
       <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="U4" pin="22" pinfunction="GPIO1/TXD" pintype="bidirectional"/>
-    </net>
-    <net code="23" name="Net-(R2-Pad2)">
-      <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
-      <node ref="T2" pin="4" pinfunction="SB" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
-    </net>
-    <net code="24" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="T3" pin="4" pinfunction="SB" pintype="passive"/>
-      <node ref="U1" pin="9" pinfunction="-" pintype="input"/>
     </net>
     <net code="25" name="Net-(R15-Pad2)">
       <node ref="R15" pin="2" pintype="passive"/>
